@@ -1,0 +1,30 @@
+[
+  {
+    "name": "О форуме",
+    "link": "#about"
+  },
+  {
+    "name": "Стенды",
+    "link": "#stends"
+  },
+  {
+    "name": "Спикеры",
+    "link": "#speakers"
+  },
+  {
+    "name": "Гости",
+    "link": "#guests"
+  },
+  {
+    "name": "Темы",
+    "link": "#theme"
+  },
+  {
+    "name": "Партнеры",
+    "link": "#partners"
+  },
+  {
+    "name": "Как добраться?",
+    "link": "#destination"
+  }
+]

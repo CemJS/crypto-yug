@@ -2,9 +2,9 @@ import { Cemjsx, Fn, Ref, Static } from "cemjs-all";
 
 export default function () {
   return (
-    <section class="forum__destination forum_z-index pb-[30px]">
+    <section id="destination" class="relative z-[2] pb-[30px] pt-[100px]">
       <div class="wrapper wrapper_padding">
-        <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)]">
+        <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
           Как добраться?
         </h2>
         <div>

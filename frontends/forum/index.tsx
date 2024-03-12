@@ -22,7 +22,7 @@ front.loader = () => {
 
 front.display = () => {
   return (
-    <div class="[background-color:var(--neutral-900)]">
+    <div class="bg-neutral-900 pt-[72px]">
       <Navigation />
     </div>
   );

@@ -16,7 +16,7 @@ export default function () {
                   });
                 }}
                 ref="slide"
-                class="forum__image"
+                class="max-h-[18.75rem] !min-h-[auto] max-w-[31.25rem] rounded-[0.8125rem]"
                 src={`/contents/forum/images/${item?.image}`}
                 alt="img"
               />

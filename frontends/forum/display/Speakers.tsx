@@ -20,8 +20,8 @@ const tabs = [
 
 export default function () {
   return (
-    <section class="event_section">
-      <h2 class="mb-[5rem] text-center text-[clamp(3rem,6vw,5.625rem)]">
+    <section id="speakers" class="event_section">
+      <h2 class="mb-[5rem] text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
         Спикеры
       </h2>
       <div>
@@ -29,7 +29,7 @@ export default function () {
           {tabs.map((item, index) => {
             return (
               <span
-                class="z-[2] w-full p-[1.25rem] text-center"
+                class="z-[2] flex w-full items-center justify-center text-center text-[clamp(0.8rem,2vw,1rem)]"
                 ref="tabItem1"
                 onclick={() => {
                   Static.activeIndex = index;
@@ -55,7 +55,7 @@ export default function () {
         {/* speakers */}
 
         <div
-          class="@1000:grid-cols-3 @1000:gap-[80px] grid grid-cols-1 gap-[7vw] [transition:2s_linear] @550:grid-cols-2 "
+          class="@1000:grid-cols-3 @1000:gap-[80px] @550:grid-cols-2 grid grid-cols-1 gap-[7vw] [transition:2s_linear] "
           ref="speakersContent"
         >
           {speakers
@@ -65,7 +65,7 @@ export default function () {
               return (
                 <div
                   class={[
-                    "mx-auto flex max-w-[14.5rem] flex-col items-center rounded-[50%] @550:max-w-[unset]",
+                    "@550:max-w-[unset] mx-auto flex max-w-[14.5rem] flex-col items-center rounded-[50%]",
                   ]}
                 >
                   <div class="mb-[0.625rem] flex w-full items-center justify-center [transition:1s]">
@@ -76,7 +76,9 @@ export default function () {
                     />
                   </div>
                   <div class="flex flex-col items-center gap-[0.3125rem] text-center leading-[1.2]">
-                    <h3>{item.speaker}</h3>
+                    <h3 class="text-[clamp(1rem,2vw,1.75rem)] font-medium">
+                      {item.speaker}
+                    </h3>
                     <p class="text-center text-[clamp(0.9rem,2vw,1.1rem)]">
                       {item.about_speaker}
                     </p>
@@ -103,7 +105,10 @@ export default function () {
           Fn.log("=9b27aa=", speakers);
         }}
       >
-        <span ref="buttonSpan" class="underline">
+        <span
+          ref="buttonSpan"
+          class="@1280:mx-0 mx-auto text-[clamp(1.3rem,2vw,1.6875rem)] font-bold underline"
+        >
           Показать всех
         </span>
       </div>

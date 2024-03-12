@@ -1,8 +1,4 @@
 {
-    "url": "/",
-    "front": [
-        "header",
-        "forum",
-        "footer"
-    ]
+  "url": "/",
+  "front": ["header", "forum"]
 }

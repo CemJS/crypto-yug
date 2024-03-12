@@ -1,0 +1,136 @@
+.gallery {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+
+  &_line {
+    overflow: hidden;
+    display: flex;
+  }
+
+  &_draggable {
+    cursor: grabbing;
+  }
+
+  &_slide {
+    min-height: 1px;
+    width: 100%;
+    float: left;
+    transform: translateZ(0);
+    display: flex;
+    justify-content: center;
+    & img {
+      user-select: none;
+      object-fit: cover;
+      width: 100%;
+      // min-height: 434px;
+    }
+  }
+
+  &_nav {
+    padding: 1rem 0 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  &_dots {
+    display: flex;
+    justify-content: center;
+    &_disabled {
+      max-height: 0;
+      overflow: hidden;
+    }
+  }
+
+  &_dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 0.4rem;
+    cursor: pointer;
+    transition:
+      background-color 0.5s,
+      width 0.5s,
+      border-radius 0.5s;
+    border: none;
+    outline: none;
+    padding: 0;
+
+    &_active {
+      background-color: #725790;
+      box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.3);
+      width: 20px;
+      border-radius: 20px;
+    }
+
+    &:hover {
+      background-color: #725790;
+      box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  // &_btns {
+  //   position: absolute;
+  //   top: 40%;
+  //   transform: translateY(-40%);
+  // }
+
+  .card {
+    height: 25rem;
+  }
+}
+
+.slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+    pointer-events: none;
+    border-radius: var(--borderR);
+  }
+  &__btn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: var(--ellipse);
+    background: var(--light-gray);
+    box-shadow: 0rem 0.3125rem 2.75rem 0rem rgba(29, 33, 45, 0.8);
+
+    img {
+      height: 1.5625rem;
+    }
+
+    &_prev {
+      left: -47px;
+    }
+
+    &_next {
+      right: -47px;
+    }
+
+    &:hover {
+      background: transparent;
+      border: 0.0625rem solid var(--border);
+      transform: translateY(-50%) scale(1.1);
+    }
+  }
+}

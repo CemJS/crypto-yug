@@ -3,12 +3,12 @@ import partners from "@json/forum/forumPartners";
 
 export default function () {
   return (
-    <section class="relative z-[2]">
+    <section id="partners" class="relative z-[2]">
       <div class="wrapper wrapper_padding">
-        <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)]">
+        <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
           Партнеры
         </h2>
-        <div class="grid grid-cols-2 gap-[0.625rem] @767:grid-cols-4">
+        <div class="@767:grid-cols-4 grid grid-cols-2 gap-[0.625rem]">
           {partners?.map((item) => {
             return (
               <a

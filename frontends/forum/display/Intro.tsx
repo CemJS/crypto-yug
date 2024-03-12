@@ -3,7 +3,10 @@ import introImg from "@images/forum/Crypto.png";
 
 export default function () {
   return (
-    <section class="relative pb-10 pt-[0.625rem] md:pb-[6.25rem] md:pt-[8.3125rem]">
+    <section
+      id="about"
+      class="relative pb-10 pt-[0.625rem] md:pb-[6.25rem] md:pt-[8.3125rem]"
+    >
       <div class="wrapper">
         <div class="relative z-[unset] mx-auto flex max-h-[42.1875rem] max-w-[75rem] items-center justify-center gap-[5%] rounded-[2.8125rem] px-[0.625rem] py-5 [background:--greenGradient]">
           <div class="z-[3] min-w-[50%] max-w-[44.125rem] grow-0 basis-1/2">
