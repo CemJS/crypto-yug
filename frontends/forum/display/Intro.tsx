@@ -17,7 +17,7 @@ export default function () {
               Ежегодный криптовалютный форум
             </h2>
             <p class="whitespace-nowrap text-[clamp(1rem,2vw,2.4375rem)] font-light leading-[1.2]">
-              3-4 июня
+              8-9 июня
               <br />
               г. Новороссийск
             </p>

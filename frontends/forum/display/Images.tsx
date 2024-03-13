@@ -19,6 +19,7 @@ export default function () {
                 class="max-h-[18.75rem] !min-h-[auto] max-w-[31.25rem] rounded-[0.8125rem]"
                 src={`/contents/forum/images/${item?.image}`}
                 alt="img"
+                draggable="false"
               />
             </div>
           );

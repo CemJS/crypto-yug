@@ -15,8 +15,8 @@ export default function () {
               Команда{" "}
               <span class="font-bold text-[--green]">Crypto Emergency</span>{" "}
               рада пригласить тебя на второй ежегодный криптофорум{" "}
-              <span class="font-bold text-[--green]">Crypto Юг 2023</span>,
-              который состоится 3 и 4 июня в г. Новороссийске.
+              <span class="font-bold text-[--green]">Crypto Юг 2024</span>,
+              который состоится 8 и 9 июня в г. Новороссийске.
             </div>
           </div>
           <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
@@ -24,7 +24,7 @@ export default function () {
               Организатор
             </h3>
             <img
-              class="@1000:max-w-[15.625rem] w-full max-w-[9.375rem]"
+              class="w-full max-w-[9.375rem] @1000:max-w-[15.625rem]"
               src={logo}
               alt="Crypto Emergency"
             />
@@ -34,7 +34,7 @@ export default function () {
               Спонсор After party
             </h3>
             <img
-              class="@1000:max-w-[15.625rem] w-full max-w-[9.375rem]"
+              class="w-full max-w-[9.375rem] @1000:max-w-[15.625rem]"
               src={metis}
               alt="Metis"
             />
@@ -44,7 +44,7 @@ export default function () {
               При поддержке
             </h3>
             <img
-              class="@1000:max-w-[15.625rem] w-full max-w-[9.375rem]"
+              class="w-full max-w-[9.375rem] @1000:max-w-[15.625rem]"
               src={racib}
               alt="РАКИБ"
             />
@@ -62,12 +62,12 @@ export default function () {
               <img
                 src={schedule3}
                 alt="Расписание 3 июня"
-                class="@1000:max-w-[18.625rem] w-full max-w-[9.375rem]"
+                class="w-full max-w-[9.375rem] @1000:max-w-[18.625rem]"
               />
               <img
                 src={schedule4}
                 alt="Расписание 4 июня"
-                class="@1000:max-w-[18.625rem] w-full max-w-[9.375rem]"
+                class="w-full max-w-[9.375rem] @1000:max-w-[18.625rem]"
               />
             </div>
           </div>

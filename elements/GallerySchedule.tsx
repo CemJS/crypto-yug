@@ -371,6 +371,7 @@ export const DisplaySchedule = function ({ items }) {
               src={schedule3}
               alt="Расписание 3 июня"
               class="!max-w-[18.625rem]"
+              draggable="false"
             />
           </div>
           <div class="gallery_slide">
@@ -378,6 +379,7 @@ export const DisplaySchedule = function ({ items }) {
               src={schedule4}
               alt="Расписание 4 июня"
               class="!max-w-[18.625rem]"
+              draggable="false"
             />
           </div>
         </div>

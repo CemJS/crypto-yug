@@ -374,6 +374,7 @@ export const DisplayImages = function ({ items }) {
                   ref="slide"
                   src={`/contents/forum/images/${item?.image}`}
                   alt="img"
+                  draggable="false"
                 />
               </div>
             );

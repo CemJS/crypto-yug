@@ -35,7 +35,6 @@ export default function () {
                   Static.activeIndex = index;
                   Ref.activeTab.style.left = `${Ref.tabItem1.offsetWidth * Static.activeIndex}px`;
                   Static.speakersTabName = item.name;
-                  Fn.log("tab", speakers, arrFinish);
                   Ref.speakersContent.classList.add("animated");
                   setTimeout(() => {
                     Ref.speakersContent.classList.remove("animated");
@@ -55,7 +54,7 @@ export default function () {
         {/* speakers */}
 
         <div
-          class="@1000:grid-cols-3 @1000:gap-[80px] @550:grid-cols-2 grid grid-cols-1 gap-[7vw] [transition:2s_linear] "
+          class="grid grid-cols-1 gap-[7vw] [transition:2s_linear] @550:grid-cols-2 @1000:grid-cols-3 @1000:gap-[80px] "
           ref="speakersContent"
         >
           {speakers
@@ -65,7 +64,7 @@ export default function () {
               return (
                 <div
                   class={[
-                    "@550:max-w-[unset] mx-auto flex max-w-[14.5rem] flex-col items-center rounded-[50%]",
+                    "mx-auto flex w-full max-w-[14.5rem] flex-col items-center rounded-[50%] @550:max-w-[unset]",
                   ]}
                 >
                   <div class="mb-[0.625rem] flex w-full items-center justify-center [transition:1s]">
@@ -102,12 +101,11 @@ export default function () {
             Static.howMutchSpeakers = 6;
             Ref.buttonSpan.textContent = "Показать всех";
           }
-          Fn.log("=9b27aa=", speakers);
         }}
       >
         <span
           ref="buttonSpan"
-          class="@1280:mx-0 mx-auto text-[clamp(1.3rem,2vw,1.6875rem)] font-bold underline"
+          class="mx-auto my-4 cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-[clamp(1.3rem,2vw,1.6875rem)] font-bold [background:--greenGradient] [border:0.4px_solid_var(--green)] @1000:p-[0.625rem_1.5625rem] @1280:mx-0"
         >
           Показать всех
         </span>

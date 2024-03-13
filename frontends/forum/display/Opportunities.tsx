@@ -5,7 +5,7 @@ export default function () {
     <section class="flex flex-col gap-[1.875rem]">
       <div class="rounded-[10px] p-[0.5rem_1.25rem] [background:var(--opacity-gray)] [border:0.0625rem_solid_var(--green-light)]">
         <div class="text-[clamp(0.9rem,3vw,2.8125rem)] leading-[1.3]">
-          <span class="font-bold text-[--green]">Crypto Юг 2023</span> -
+          <span class="font-bold text-[--green]">Crypto Юг 2024</span> -
           прекрасная возможность провести время приятно и с пользой, открыть для
           себя новые возможности, повысить экспертность и увеличить доход.
         </div>
