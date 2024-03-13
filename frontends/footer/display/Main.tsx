@@ -26,10 +26,12 @@ export default function () {
                     } else {
                       e.preventDefault();
                       Ref[`lang${i}`].classList.toggle("opacity-100");
-                      Ref[`lang${i}`].classList.toggle("pointer-events-auto");
+                      Ref[`lang${i}`].classList.toggle("!pointer-events-auto");
                       setTimeout(() => {
                         Ref[`lang${i}`].classList.toggle("opacity-100");
-                        Ref[`lang${i}`].classList.toggle("pointer-events-auto");
+                        Ref[`lang${i}`].classList.toggle(
+                          "!pointer-events-auto",
+                        );
                       }, 1500);
                     }
                   }}
@@ -40,14 +42,16 @@ export default function () {
                   {Array.isArray(item.href) ? (
                     <div
                       ref={`lang${i}`}
-                      class="pointer-events-none absolute left-0 top-[-5px] flex items-center justify-between gap-[0.625rem]    rounded-[--borderR] bg-[#3b2d4a] px-[0.625rem] py-[0.3125rem] opacity-0 [transform:translate(-30%,-100%)] [transition:all_0.2s_ease-in-out]"
+                      class="pointer-events-none absolute left-0 top-[-5px] flex items-center justify-between gap-[0.625rem] rounded-[--borderR] bg-[#3b2d4a] px-[0.625rem] py-[0.3125rem] opacity-0 [transform:translate(-30%,-100%)] [transition:all_0.2s_ease-in-out]"
                     >
                       {item.href.map((item) => {
                         return (
                           <a
                             href={item.href}
                             target="_blank"
-                            onclick={Fn.link}
+                            onclick={(e) => {
+                              e.stopPropagation();
+                            }}
                             class="text-[--white]"
                           >
                             {item.lang}

@@ -8,10 +8,11 @@ export default function () {
         <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
           Партнеры
         </h2>
-        <div class="@767:grid-cols-4 grid grid-cols-2 gap-[0.625rem]">
+        <div class="grid grid-cols-2 gap-[0.625rem] @767:grid-cols-4">
           {partners?.map((item) => {
             return (
               <a
+                onclick={Fn.link}
                 href={item.url}
                 target="_blank"
                 class="flex h-[120px] w-full overflow-hidden rounded-[10px] pb-[10px] pt-[10px] text-center [border:1px_solid_#01c8ab]"

@@ -7,10 +7,11 @@ export default function () {
       <h2 class="mb-20 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
         Гости Crypto Emergency
       </h2>
-      <div class="@1000:[grid-template-columns:repeat(3,minmax(7.375rem,1fr))] grid w-full gap-[1.875rem] [grid-template-columns:repeat(2,minmax(7.375rem,1fr))] xl:[grid-template-columns:repeat(4,minmax(7.375rem,1fr))]">
+      <div class="grid w-full gap-[1.875rem] [grid-template-columns:repeat(2,minmax(7.375rem,1fr))] @1000:[grid-template-columns:repeat(3,minmax(7.375rem,1fr))] xl:[grid-template-columns:repeat(4,minmax(7.375rem,1fr))]">
         {guests.map((item) => {
           return (
             <a
+              onclick={Fn.link}
               href={item.href}
               target="_blank"
               class="mx-auto w-full max-w-[18.75rem] text-center"
