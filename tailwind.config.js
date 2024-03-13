@@ -1,5 +1,9 @@
 export default {
-  content: ["./frontends/**/*.{tsx,js}", "./elements/**/*.{tsx,js}"],
+  content: [
+    "./frontends/**/*.{tsx,js}",
+    "./elements/**/*.{tsx,js}",
+    "./public/index.html",
+  ],
   theme: {
     extend: {
       screens: {
