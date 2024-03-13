@@ -62,12 +62,12 @@ export default function () {
               <img
                 src={schedule3}
                 alt="Расписание 3 июня"
-                class="w-full max-w-[9.375rem] @1000:max-w-[18.625rem]"
+                class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"
               />
               <img
                 src={schedule4}
                 alt="Расписание 4 июня"
-                class="w-full max-w-[9.375rem] @1000:max-w-[18.625rem]"
+                class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"
               />
             </div>
           </div>
