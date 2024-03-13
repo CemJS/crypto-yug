@@ -16,9 +16,18 @@ export default function () {
           }, 5);
         }
       }}
+      ontouchstart={(e) => {
+        if (e.target === Ref.modalBody) {
+          setTimeout(() => {
+            Fn.clearData();
+            front.Variable.$el.body.classList.remove("activeModal");
+            front.Variable.$el.body.style.overflow = "auto";
+          }, 5);
+        }
+      }}
     >
       <div class="modalWindow_body" ref="modalBody">
-        <div class="modalWindow_content modalWindow_content_gallery @1280:!w-[70%] !w-full px-[35px]">
+        <div class="modalWindow_content modalWindow_content_gallery !w-full px-[35px] @1280:!w-[70%]">
           <main class="modalWindow_main w-full">
             <div class="modalGallery_carousel">
               {Static.schedule ? (

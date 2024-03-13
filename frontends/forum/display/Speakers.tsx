@@ -40,6 +40,15 @@ export default function () {
                     Ref.speakersContent.classList.remove("animated");
                   }, 500);
                 }}
+                ontouchstart={() => {
+                  Static.activeIndex = index;
+                  Ref.activeTab.style.left = `${Ref.tabItem1.offsetWidth * Static.activeIndex}px`;
+                  Static.speakersTabName = item.name;
+                  Ref.speakersContent.classList.add("animated");
+                  setTimeout(() => {
+                    Ref.speakersContent.classList.remove("animated");
+                  }, 500);
+                }}
               >
                 {item.name}
               </span>
@@ -94,6 +103,15 @@ export default function () {
         class="flex cursor-pointer justify-end rounded-[0px_0px_0.625rem_0.625rem] border-none p-4 font-medium"
         ref="button"
         onclick={() => {
+          if (Static.howMutchSpeakers == 6) {
+            Static.howMutchSpeakers = speakers.length;
+            Ref.buttonSpan.innerText = "Скрыть";
+          } else {
+            Static.howMutchSpeakers = 6;
+            Ref.buttonSpan.textContent = "Показать всех";
+          }
+        }}
+        ontouchstart={() => {
           if (Static.howMutchSpeakers == 6) {
             Static.howMutchSpeakers = speakers.length;
             Ref.buttonSpan.innerText = "Скрыть";

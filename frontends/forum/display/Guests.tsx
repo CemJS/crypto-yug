@@ -12,6 +12,7 @@ export default function () {
           return (
             <a
               onclick={Fn.link}
+              ontouchstart={Fn.link}
               href={item.href}
               target="_blank"
               class="mx-auto w-full max-w-[18.75rem] text-center"

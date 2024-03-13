@@ -26,6 +26,7 @@ front.display = () => {
         <button
           class="btn btn_dark"
           onclick={Func.close}
+          ontouchstart={Func.close}
         >
           <i class="i i-cancel"></i>
         </button>

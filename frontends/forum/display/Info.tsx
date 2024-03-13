@@ -57,6 +57,9 @@ export default function () {
               onclick={() => {
                 Fn.initOne("modalGallery", { schedule: 1 });
               }}
+              ontouchstart={() => {
+                Fn.initOne("modalGallery", { schedule: 1 });
+              }}
               class="flex w-full flex-col items-center gap-5 @500:flex-row"
             >
               <img

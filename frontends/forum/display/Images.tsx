@@ -15,6 +15,11 @@ export default function () {
                     images: images,
                   });
                 }}
+                ontouchstart={() => {
+                  Fn.initOne("modalGallery", {
+                    images: images,
+                  });
+                }}
                 ref="slide"
                 class="max-h-[18.75rem] !min-h-[auto] max-w-[31.25rem] cursor-pointer rounded-[0.8125rem]"
                 src={`/contents/forum/images/${item?.image}`}
