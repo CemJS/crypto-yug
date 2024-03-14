@@ -8,7 +8,7 @@ export default function () {
     >
       <div class="wrapper wrapper_padding">
         <p class="mb-12 ml-auto mr-auto max-w-[28.625rem] text-center text-[clamp(1.2rem,2vw,1.5rem)] font-semibold leading-[1.2]">
-          Второй ежегодный криптовалютный форум пройдет в центре города
+          Третий ежегодный криптовалютный форум пройдет в центре города
           Новороссийска на берегу Черного моря.
         </p>
         <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">

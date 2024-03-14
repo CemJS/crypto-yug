@@ -12,8 +12,7 @@ export default function () {
           {partners?.map((item) => {
             return (
               <a
-                onclick={Fn.link}
-                ontouchstart={Fn.link}
+                onpointerup={Fn.link}
                 href={item.url}
                 target="_blank"
                 class="flex h-[120px] w-full overflow-hidden rounded-[10px] pb-[10px] pt-[10px] text-center [border:1px_solid_#01c8ab]"

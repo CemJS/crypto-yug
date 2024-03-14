@@ -1,4 +1,4 @@
-import { Cemjsx, Func, Static, Fn } from "cemjs-all";
+import { Cemjsx, Func, Static, Fn, Ref } from "cemjs-all";
 import menu from "@json/menu";
 
 export default function () {
@@ -7,7 +7,7 @@ export default function () {
       <div class="wrapper rela flex h-full items-center px-[0.625rem]">
         <nav
           class={[
-            "navbar pointer-events-none absolute bottom-0 left-0 top-[72px] flex h-[300px] w-full flex-col items-center justify-evenly gap-3 bg-neutral-900 py-4 opacity-0 ring-0 [transform:translateY(calc(-100%_-_72px))] [transition:all_0.3s_ease-in-out] @700:pointer-events-auto @700:relative @700:top-0 @700:h-full @700:flex-row @700:gap-0 @700:py-0 @700:opacity-100 @700:[transform:translateY(0)]",
+            "navbar pointer-events-none absolute bottom-0 left-0 top-[72px] flex h-[100vh] w-full flex-col items-center gap-10 bg-neutral-900 py-4 opacity-0 ring-0 [transform:translateY(calc(-100%_-_72px))] [transition:all_0.3s_ease-in-out] @700:pointer-events-auto @700:relative @700:top-0 @700:h-full @700:flex-row @700:justify-evenly @700:gap-0 @700:py-0 @700:opacity-100 @700:[transform:translateY(0)]",
             Static.active
               ? "!pointer-events-auto !opacity-100 ![transform:translateY(0)]"
               : null,
@@ -16,9 +16,9 @@ export default function () {
           {menu.map((item) => {
             return (
               <a
-                onclick={() => (Static.active = false)}
-                ontouchstart={() => (Static.active = false)}
+                onpointerup={() => (Static.active = false)}
                 href={item.link}
+                id={`link${item.link}`}
                 class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-[0.75rem] [background:--greenGradient] [border:0.4px_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
               >
                 {item.name}
@@ -27,11 +27,7 @@ export default function () {
           })}
         </nav>
         <div
-          onclick={(e) => {
-            e.stopPropagation();
-            Static.active = !Static.active;
-          }}
-          ontouchstart={(e) => {
+          onpointerup={(e) => {
             e.stopPropagation();
             Static.active = !Static.active;
           }}

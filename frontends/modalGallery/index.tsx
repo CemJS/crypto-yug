@@ -23,11 +23,7 @@ front.display = () => {
   return (
     <div>
       <header class="modal-header">
-        <button
-          class="btn btn_dark"
-          onclick={Func.close}
-          ontouchstart={Func.close}
-        >
+        <button class="btn btn_dark" onpointerup={Func.close}>
           <i class="i i-cancel"></i>
         </button>
       </header>

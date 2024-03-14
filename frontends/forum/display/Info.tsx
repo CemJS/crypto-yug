@@ -14,7 +14,7 @@ export default function () {
             <div class="text-[clamp(0.9rem,3vw,2.8125rem)] leading-[1.3]">
               Команда{" "}
               <span class="font-bold text-[--green]">Crypto Emergency</span>{" "}
-              рада пригласить тебя на второй ежегодный криптофорум{" "}
+              рада пригласить тебя на третий ежегодный криптофорум{" "}
               <span class="font-bold text-[--green]">Crypto Юг 2024</span>,
               который состоится 8 и 9 июня в г. Новороссийске.
             </div>
@@ -53,21 +53,19 @@ export default function () {
             <h3 class="text-[clamp(1.3rem,3vw,2.8125rem)] font-bold">
               Расписание форума
             </h3>
-            <div
-              onclick={() => {
-                Fn.initOne("modalGallery", { schedule: 1 });
-              }}
-              ontouchstart={() => {
-                Fn.initOne("modalGallery", { schedule: 1 });
-              }}
-              class="flex w-full flex-col items-center gap-5 @500:flex-row"
-            >
+            <div class="flex w-full flex-col items-center gap-5 @500:flex-row">
               <img
+                onpointerup={() => {
+                  Fn.initOne("modalGallery", { schedule: "0" });
+                }}
                 src={schedule3}
                 alt="Расписание 3 июня"
                 class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"
               />
               <img
+                onpointerup={() => {
+                  Fn.initOne("modalGallery", { schedule: "1" });
+                }}
                 src={schedule4}
                 alt="Расписание 4 июня"
                 class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"

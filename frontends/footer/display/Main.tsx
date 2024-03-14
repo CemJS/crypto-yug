@@ -20,22 +20,7 @@ export default function () {
               return (
                 <a
                   href={!Array.isArray(item.href) ? item.href : ""}
-                  onclick={(e) => {
-                    if (!Array.isArray(item.href)) {
-                      Fn.link(e);
-                    } else {
-                      e.preventDefault();
-                      Ref[`lang${i}`].classList.toggle("opacity-100");
-                      Ref[`lang${i}`].classList.toggle("!pointer-events-auto");
-                      setTimeout(() => {
-                        Ref[`lang${i}`].classList.toggle("opacity-100");
-                        Ref[`lang${i}`].classList.toggle(
-                          "!pointer-events-auto",
-                        );
-                      }, 1500);
-                    }
-                  }}
-                  ontouchstart={(e) => {
+                  onpointerup={(e) => {
                     if (!Array.isArray(item.href)) {
                       Fn.link(e);
                     } else {
@@ -64,11 +49,7 @@ export default function () {
                           <a
                             href={item.href}
                             target="_blank"
-                            onclick={(e) => {
-                              e.stopPropagation();
-                              Fn.link(e);
-                            }}
-                            ontouchstart={(e) => {
+                            onpointerup={(e) => {
                               e.stopPropagation();
                               Fn.link(e);
                             }}

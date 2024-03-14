@@ -48,6 +48,7 @@ class Gallery {
     next: HTMLElement,
     prev: HTMLElement,
     options = { margin: 10 },
+    currentSlide: any,
   ) {
     this.element = element;
     this.elementEmpty = undefined;
@@ -55,10 +56,10 @@ class Gallery {
     this.dots = dots;
     this.next = next;
     this.prev = prev;
-    this.firstManage = false;
+    this.firstManage = true;
     this.countSlides = 1;
     this.size = Math.ceil(this.elementCount / this.countSlides); // определяем кол-во слайдов галереи
-    this.currentSlide = 0;
+    this.currentSlide = +currentSlide;
     this.currentSlideWasChanged = false;
     this.settings = {
       margin: options.margin || 0,
@@ -85,7 +86,6 @@ class Gallery {
     this.setParameters();
     this.destroyEvents();
     this.setEvents();
-    this.resizeGallery();
 
     setTimeout(() => {
       this.resizeGallery();
@@ -94,23 +94,10 @@ class Gallery {
   }
 
   manageHTML() {
-    // if (!this.firstManage) {
     this.element.classList.add(GalleryClassName);
-    // this.element.innerHTML = `
-    //       <div class="${GalleryLineClassName}">
-    //           ${this.element.innerHTML}
-    //       <div>
-    //   `;
 
     this.lineNode = this.element.querySelector(`.${GalleryLineClassName}`);
 
-    // this.slideItems = Array.from(this.lineNode.children).map((childNode) => {
-    //   wrapElementByDiv({
-    //     element: childNode,
-    //     className: GallerySlideClassName,
-    //   });
-    // });
-    // }
     this.dots.classList.add(GalleryDotsClassName);
     this.dots.innerHTML = "";
 
@@ -179,9 +166,9 @@ class Gallery {
   }
 
   resizeGallery() {
-    this.currentSlide = 0;
+    this.firstManage ? null : (this.currentSlide = 0);
+    this.firstManage = false;
     this.x = -this.currentSlide * (this.widthContainer + this.settings.margin);
-    this.changeCurrentSlide();
     this.setParameters();
   }
 
@@ -343,7 +330,7 @@ function debounce(func, time = 100) {
 
 export { Gallery };
 
-export const init = function (element: HTMLElement) {
+export const init = function (element: HTMLElement, currentSlide: any) {
   Static.galleryRun = new Gallery(
     element,
     Ref.galleryDots,
@@ -352,20 +339,21 @@ export const init = function (element: HTMLElement) {
     {
       margin: 10,
     },
+    currentSlide,
   );
   // this.init();
 };
 
-export const DisplayImages = function ({ items }) {
+export const DisplayImages = function ({ items, slide = 0 }) {
   {
-    Ref.slider ? init(Ref.slider) : null;
+    Ref.slider ? init(Ref.slider, slide) : null;
   }
   if (!items || !items.length) {
     return <div />;
   }
   return (
     <div style="position: relative;">
-      <div ref="slider" init={init}>
+      <div ref="slider" init={() => init(Ref.slider, slide)}>
         <div class="gallery_line">
           {items?.map((item) => {
             return (

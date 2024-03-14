@@ -20,7 +20,7 @@ const tabs = [
 
 export default function () {
   return (
-    <section id="speakers" class="event_section">
+    <section ref="speakers" id="speakers" class="event_section">
       <h2 class="mb-[5rem] text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
         Спикеры
       </h2>
@@ -31,16 +31,7 @@ export default function () {
               <span
                 class="z-[2] flex w-full items-center justify-center text-center text-[clamp(0.8rem,2vw,1rem)]"
                 ref="tabItem1"
-                onclick={() => {
-                  Static.activeIndex = index;
-                  Ref.activeTab.style.left = `${Ref.tabItem1.offsetWidth * Static.activeIndex}px`;
-                  Static.speakersTabName = item.name;
-                  Ref.speakersContent.classList.add("animated");
-                  setTimeout(() => {
-                    Ref.speakersContent.classList.remove("animated");
-                  }, 500);
-                }}
-                ontouchstart={() => {
+                onpointerup={() => {
                   Static.activeIndex = index;
                   Ref.activeTab.style.left = `${Ref.tabItem1.offsetWidth * Static.activeIndex}px`;
                   Static.speakersTabName = item.name;
@@ -102,22 +93,20 @@ export default function () {
       <div
         class="flex cursor-pointer justify-end rounded-[0px_0px_0.625rem_0.625rem] border-none p-4 font-medium"
         ref="button"
-        onclick={() => {
+        onpointerup={() => {
           if (Static.howMutchSpeakers == 6) {
             Static.howMutchSpeakers = speakers.length;
             Ref.buttonSpan.innerText = "Скрыть";
           } else {
             Static.howMutchSpeakers = 6;
-            Ref.buttonSpan.textContent = "Показать всех";
-          }
-        }}
-        ontouchstart={() => {
-          if (Static.howMutchSpeakers == 6) {
-            Static.howMutchSpeakers = speakers.length;
-            Ref.buttonSpan.innerText = "Скрыть";
-          } else {
-            Static.howMutchSpeakers = 6;
-            Ref.buttonSpan.textContent = "Показать всех";
+            // Ref.buttonSpan.textContent = "Показать всех";
+            // console.log("=95ceab=", Ref.speakers);
+            // setTimeout(() => {
+            //   scroll({
+            //     top: Ref.speakers.offsetTop,
+            //     behavior: "smooth",
+            //   });
+            // }, 100);
           }
         }}
       >

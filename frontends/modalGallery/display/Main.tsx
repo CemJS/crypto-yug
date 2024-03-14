@@ -7,16 +7,7 @@ export default function () {
     <div
       class="modalWindow"
       ref="modalWindow"
-      onclick={(e) => {
-        if (e.target === Ref.modalBody) {
-          setTimeout(() => {
-            Fn.clearData();
-            front.Variable.$el.body.classList.remove("activeModal");
-            front.Variable.$el.body.style.overflow = "auto";
-          }, 5);
-        }
-      }}
-      ontouchstart={(e) => {
+      onpointerup={(e) => {
         if (e.target === Ref.modalBody) {
           setTimeout(() => {
             Fn.clearData();
@@ -31,9 +22,14 @@ export default function () {
           <main class="modalWindow_main w-full">
             <div class="modalGallery_carousel">
               {Static.schedule ? (
-                <DisplaySchedule items={Static.schedule} />
+                <DisplaySchedule slide={Static.schedule} />
               ) : null}
-              {Static.images ? <DisplayImages items={Static.images} /> : null}
+              {Static.images ? (
+                <DisplayImages
+                  items={Static.images}
+                  slide={Static.imagesSlide}
+                />
+              ) : null}
             </div>
           </main>
         </div>
