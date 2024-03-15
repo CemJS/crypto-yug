@@ -99,14 +99,11 @@ export default function () {
             Ref.buttonSpan.innerText = "Скрыть";
           } else {
             Static.howMutchSpeakers = 6;
-            // Ref.buttonSpan.textContent = "Показать всех";
-            // console.log("=95ceab=", Ref.speakers);
-            // setTimeout(() => {
-            //   scroll({
-            //     top: Ref.speakers.offsetTop,
-            //     behavior: "smooth",
-            //   });
-            // }, 100);
+            Ref.buttonSpan.textContent = "Показать всех";
+
+            document.getElementById("speakers").scrollIntoView({
+              behavior: "smooth",
+            });
           }
         }}
       >
