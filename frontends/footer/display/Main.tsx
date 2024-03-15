@@ -24,7 +24,6 @@ export default function () {
                     if (!Array.isArray(item.href)) {
                       Fn.link(e);
                     } else {
-                      console.log("=ea0be9=", e);
                       e.preventDefault();
                       Ref[`lang${i}`].classList.toggle("opacity-100");
                       Ref[`lang${i}`].classList.toggle("!pointer-events-auto");

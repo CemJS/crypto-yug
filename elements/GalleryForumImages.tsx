@@ -133,10 +133,6 @@ class Gallery {
           width = (this.widthContainer - 10 * (rest - 1)) / rest;
         }
       }
-      // if (this.currentSlide + 1 == this.size) {
-      //   Fn.log("=26a618=", i > (this.size - 1) * this.countSlides);
-      //   Fn.log("=1977bc=", i);
-      // }
       slideNode.style.minWidth = `${width}px`;
       slideNode.style.maxWidth = `${width}px`;
       slideNode.style.marginRight = `${this.settings.margin}px`;
