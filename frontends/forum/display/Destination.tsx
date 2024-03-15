@@ -4,7 +4,7 @@ export default function () {
   return (
     <section id="destination" class="relative z-[2] pb-[30px] pt-[100px]">
       <div class="wrapper wrapper_padding">
-        <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
+        <h2 class="my-6 text-center text-[clamp(1.5rem,4vw,5.625rem)] font-bold">
           Как добраться?
         </h2>
         <div>

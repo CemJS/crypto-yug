@@ -11,7 +11,7 @@ export default function () {
           Третий ежегодный криптовалютный форум пройдет в центре города
           Новороссийска на берегу Черного моря.
         </p>
-        <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
+        <h2 class="my-6 text-center text-[clamp(1.5rem,4vw,5.625rem)] font-bold">
           Темы форума:
         </h2>
         <ul class="mb-10 flex flex-col gap-[0.625rem]">

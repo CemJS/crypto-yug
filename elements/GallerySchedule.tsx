@@ -352,7 +352,7 @@ export const DisplaySchedule = function ({ slide = 0 }) {
             <img
               src={schedule3}
               alt="Расписание 3 июня"
-              class="!max-w-[18.625rem]"
+              class="!max-w-[35.625rem]"
               draggable="false"
             />
           </div>
@@ -360,7 +360,7 @@ export const DisplaySchedule = function ({ slide = 0 }) {
             <img
               src={schedule4}
               alt="Расписание 4 июня"
-              class="!max-w-[18.625rem]"
+              class="!max-w-[35.625rem]"
               draggable="false"
             />
           </div>

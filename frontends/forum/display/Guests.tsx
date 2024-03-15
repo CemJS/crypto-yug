@@ -4,7 +4,7 @@ import guests from "@json/forum/forumGuests";
 export default function () {
   return (
     <section id="guests" class="relative z-[2]">
-      <h2 class="mb-20 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
+      <h2 class="mb-10 text-center text-[clamp(1.5rem,4vw,5.625rem)] font-bold @767:mb-20">
         Гости Crypto Emergency
       </h2>
       <div class="grid w-full gap-[1.875rem] [grid-template-columns:repeat(2,minmax(7.375rem,1fr))] @1000:[grid-template-columns:repeat(3,minmax(7.375rem,1fr))] xl:[grid-template-columns:repeat(4,minmax(7.375rem,1fr))]">

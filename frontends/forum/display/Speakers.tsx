@@ -21,7 +21,7 @@ const tabs = [
 export default function () {
   return (
     <section ref="speakers" id="speakers" class="event_section">
-      <h2 class="mb-[5rem] text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
+      <h2 class="mb-[3rem] text-center text-[clamp(1.5rem,4vw,5.625rem)] font-bold @767:mb-[5rem]">
         Спикеры
       </h2>
       <div>
@@ -54,7 +54,7 @@ export default function () {
         {/* speakers */}
 
         <div
-          class="grid grid-cols-1 gap-[7vw] [transition:2s_linear] @550:grid-cols-2 @1000:grid-cols-3 @1000:gap-[80px] "
+          class="grid grid-cols-2 gap-[7vw] [transition:2s_linear] @550:grid-cols-2 @1000:grid-cols-3 @1000:gap-[80px] "
           ref="speakersContent"
         >
           {speakers
@@ -78,7 +78,7 @@ export default function () {
                     <h3 class="text-[clamp(1rem,2vw,1.75rem)] font-medium">
                       {item.speaker}
                     </h3>
-                    <p class="text-center text-[clamp(0.9rem,2vw,1.1rem)]">
+                    <p class="text-center text-[clamp(0.8rem,2vw,1.1rem)]">
                       {item.about_speaker}
                     </p>
                   </div>

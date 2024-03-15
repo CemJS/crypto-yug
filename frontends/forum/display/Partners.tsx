@@ -5,7 +5,7 @@ export default function () {
   return (
     <section id="partners" class="relative z-[2]">
       <div class="wrapper wrapper_padding">
-        <h2 class="my-6 text-center text-[clamp(3rem,6vw,5.625rem)] font-bold">
+        <h2 class="my-6 text-center text-[clamp(1.5rem,4vw,5.625rem)] font-bold">
           Партнеры
         </h2>
         <div class="grid grid-cols-2 gap-[0.625rem] @767:grid-cols-4">
