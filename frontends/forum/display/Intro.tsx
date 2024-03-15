@@ -10,7 +10,11 @@ export default function () {
       <div class="wrapper">
         <div class="relative z-[unset] mx-auto flex max-h-[42.1875rem] max-w-[75rem] items-center justify-center gap-[5%] rounded-[2.8125rem] px-[0.625rem] py-5 [background:--greenGradient]">
           <div class="z-[3] min-w-[50%] max-w-[44.125rem] grow-0 basis-1/2">
-            <img class="w-full" src={introImg} alt="Crypto ЮГ 2023" />
+            <img
+              class="w-full py-[60px] @500:py-[100px]"
+              src={introImg}
+              alt="Crypto ЮГ 2024"
+            />
           </div>
           <div class="z-[3]">
             <h2 class="mb-4 max-w-[350px] text-[clamp(0.9rem,4vw,2.8125rem)] leading-[clamp(0.9rem,4vw,3.8813rem)]">

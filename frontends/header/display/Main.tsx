@@ -16,7 +16,7 @@ export default function () {
           {menu.map((item) => {
             return (
               <a
-                onpointerup={() => (Static.active = false)}
+                onclick={() => (Static.active = false)}
                 href={item.link}
                 id={`link${item.link}`}
                 class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-[0.75rem] [background:--greenGradient] [border:0.4px_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"

@@ -4,6 +4,7 @@ import racib from "@images/forum/racib.png";
 import logo from "@svg/logo.svg";
 import schedule3 from "@images/forum/schedule3.png";
 import schedule4 from "@images/forum/schedule4.png";
+import { DisplaySchedule } from "@elements/GalleryInfoSchedule";
 
 export default function () {
   return (
@@ -54,6 +55,7 @@ export default function () {
               Расписание форума
             </h3>
             <div class="flex w-full flex-col items-center gap-5 @500:flex-row">
+              {/* <DisplaySchedule /> */}
               <img
                 onpointerup={() => {
                   Fn.initOne("modalGallery", { schedule: "0" });

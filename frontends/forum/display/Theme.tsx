@@ -31,7 +31,7 @@ export default function () {
             NFT, как прикоснуться к искусству
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            Майнинг в 2023 году
+            Майнинг в 2024 году
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
             GameFi получай удовольствие и зарабатывай
