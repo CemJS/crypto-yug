@@ -1,10 +1,38 @@
 [
   {
+    "id": 31,
+    "photo": "speaker31.png",
+    "speaker": "Бурков Максим",
+    "about_speaker": "Основатель группы web3 компаний Pro Blockchain Media",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 32,
+    "photo": "speaker32.png",
+    "speaker": "Бурова Евгения Юрьевна",
+    "about_speaker": "Директор по коммуникациям криптовалютной биржи Garantex",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 33,
+    "photo": "speaker33.png",
+    "speaker": "Руслан Захаркин",
+    "about_speaker": "Экономист, криптоинвестор, ведущий блокчейн-мероприятий, независимый финансовый советник.",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 34,
+    "photo": "speaker34.png",
+    "speaker": "Эдгар Григорян",
+    "about_speaker": "Основатель группы компаний ATF media и web3-социальной сети DAOPEOPLE",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
     "id": 3,
-    "photo": "speaker3.jpg",
+    "photo": "speaker3.png",
     "speaker": "Александр Бражников",
     "about_speaker": "Исполнительный директор РАКИБ",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 27,
@@ -29,10 +57,10 @@
   },
   {
     "id": 1,
-    "photo": "speaker1.jpg",
+    "photo": "speaker1.png",
     "speaker": "Ян Кривоносов",
-    "about_speaker": "CEO Crypto Emergency",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "about_speaker": "СЕО и фаундер Crypto Emergency",
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 14,
@@ -58,11 +86,11 @@
   },
   {
     "id": 7,
-    "photo": "speaker7.jpg",
+    "photo": "speaker7.png",
     "speaker": "Mr. Sailer YouTube",
     "about_speaker": "Блогер журналист",
 
-    "visited": ["CryptoЮГ2023"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
   },
   {
     "id": 29,
@@ -78,7 +106,7 @@
     "speaker": "Валерий Осипов",
     "about_speaker": "ArtEmotioChain",
 
-    "visited": ["CryptoЮГ2023"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
   },
   {
     "id": 9,
@@ -114,11 +142,11 @@
   },
   {
     "id": 12,
-    "photo": "speaker12.jpg",
+    "photo": "speaker12.png",
     "speaker": "Вячеслав Носков",
-    "about_speaker": "PRO BLOCKCHAIN MEDIA",
+    "about_speaker": "Основатель группы web3 компаний Pro Blockchain Media",
 
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 26,
@@ -138,19 +166,19 @@
   },
   {
     "id": 17,
-    "photo": "speaker17.jpg",
+    "photo": "speaker17.png",
     "speaker": "Сергей Грабский",
     "about_speaker": "Руководитель Ассоциации цифрового развития Краснодарского края",
 
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 18,
-    "photo": "speaker18.jpg",
+    "photo": "speaker18.png",
     "speaker": "Евгений Сапожников",
     "about_speaker": "Основатель обменника криптовалют Keine-exchange",
 
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 19,
@@ -186,11 +214,11 @@
   },
   {
     "id": 23,
-    "photo": "speaker23.jpg",
+    "photo": "speaker23.png",
     "speaker": "Тимофей Григоренко",
     "about_speaker": "Майнинг, владелец 1GHS",
 
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 24,

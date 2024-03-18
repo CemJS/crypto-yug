@@ -1,12 +1,9 @@
 import { Cemjsx, Fn, Ref, Static } from "cemjs-all";
 import back from "@svg/icon/prev.svg";
 import next from "@svg/icon/next.svg";
-import schedule3 from "@images/forum/schedule3.png";
-import schedule4 from "@images/forum/schedule4.png";
 
-const key = Math.floor(Math.random() * 1000);
 const GalleryClassName = "gallery";
-const GalleryClassNamePartners = "gallery_partners";
+const GalleryClassNamePartners = "gallery_images";
 const GalleryLineClassName = "gallery_line";
 const GallerySlideClassName = "gallery_slide";
 const GalleryGraggableClassName = "gallery_draggable";
@@ -50,7 +47,6 @@ class Gallery {
     next: HTMLElement,
     prev: HTMLElement,
     options = { margin: 10 },
-    currentSlide: any,
   ) {
     this.element = element;
     this.elementEmpty = undefined;
@@ -58,10 +54,10 @@ class Gallery {
     this.dots = dots;
     this.next = next;
     this.prev = prev;
-    this.firstManage = true;
-    this.countSlides = 1;
+    this.firstManage = false;
+    this.countSlides = 5;
     this.size = Math.ceil(this.elementCount / this.countSlides); // определяем кол-во слайдов галереи
-    this.currentSlide = +currentSlide;
+    this.currentSlide = 0;
     this.currentSlideWasChanged = false;
     this.settings = {
       margin: options.margin || 0,
@@ -92,7 +88,7 @@ class Gallery {
     setTimeout(() => {
       this.resizeGallery();
     }, 500);
-    // setInterval(this.clickNext, 4000);
+    // Static.interval = setInterval(this.clickNext, 4000);
   }
 
   manageHTML() {
@@ -110,7 +106,15 @@ class Gallery {
     this.dotNodes = this.dots.querySelectorAll(`.${GalleryDotClassName}`);
   }
 
-  adaptive() {}
+  adaptive() {
+    if (window.innerWidth < 768) {
+      this.countSlides = 2;
+    } else if (window.innerWidth < 400) {
+      this.countSlides = 1;
+    } else {
+      this.countSlides = 3;
+    }
+  }
 
   setParameters() {
     this.adaptive();
@@ -124,18 +128,27 @@ class Gallery {
     this.setStyleTransition();
     this.lineNode.style.width = `${this.size * (this.widthContainer + this.settings.margin)}px`;
     this.setStylePosition();
-    Array.from(this.lineNode.children).forEach((slideNode: any, i) => {
+    Array.from(this.lineNode.children).forEach(async (slideNode: any, i) => {
       let width =
-        (this.widthContainer - 10 * (this.countSlides - 1)) / this.countSlides;
+        (this.widthContainer - this.settings.margin * (this.countSlides - 1)) /
+        this.countSlides;
       if (this.currentSlide + 1 == this.size) {
         let rest = this.elementCount - this.countSlides * (this.size - 1);
         if (i + 1 > (this.size - 1) * this.countSlides) {
-          width = (this.widthContainer - 10 * (rest - 1)) / rest;
+          width =
+            (this.widthContainer - this.settings.margin * (rest - 1)) / rest;
         }
       }
       slideNode.style.minWidth = `${width}px`;
       slideNode.style.maxWidth = `${width}px`;
       slideNode.style.marginRight = `${this.settings.margin}px`;
+      slideNode.style.minHeight = `${Static.height}px`;
+      slideNode.style.maxHeight = `${Static.height}px`;
+      await new Promise((resolve) =>
+        setTimeout(() => {
+          i == 0 ? (Static.height = slideNode.offsetHeight) : null;
+        }, 200),
+      );
     });
     this.manageHTML();
   }
@@ -162,9 +175,9 @@ class Gallery {
   }
 
   resizeGallery() {
-    this.firstManage ? null : (this.currentSlide = 0);
-    this.firstManage = false;
+    this.currentSlide = 0;
     this.x = -this.currentSlide * (this.widthContainer + this.settings.margin);
+    this.changeCurrentSlide();
     this.setParameters();
   }
 
@@ -260,24 +273,24 @@ class Gallery {
     this.setStylePosition();
 
     //change active slide
-    if (
-      dragShift > 5 &&
-      dragShift > 0 &&
-      !this.currentSlideWasChanged &&
-      this.currentSlide > 0
-    ) {
-      this.currentSlideWasChanged = true;
-      this.currentSlide = this.currentSlide - 1;
+    if (dragShift > 5 && dragShift > 0 && !this.currentSlideWasChanged) {
+      if (this.currentSlide == 0) {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.size - 1;
+      } else {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.currentSlide - 1;
+      }
     }
 
-    if (
-      dragShift < -5 &&
-      dragShift < 0 &&
-      !this.currentSlideWasChanged &&
-      this.currentSlide < this.size - 1
-    ) {
-      this.currentSlideWasChanged = true;
-      this.currentSlide = this.currentSlide + 1;
+    if (dragShift < -5 && dragShift < 0 && !this.currentSlideWasChanged) {
+      if (this.currentSlide == this.size - 1) {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = 0;
+      } else {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.currentSlide + 1;
+      }
     }
   }
 
@@ -326,60 +339,37 @@ function debounce(func, time = 100) {
 
 export { Gallery };
 
-export const init = function (element: HTMLElement, currentSlide: any) {
+export const init = function (element: HTMLElement) {
   Static.galleryRun = new Gallery(
     element,
     Ref.galleryDots,
-    Ref.nextGallery,
-    Ref.prevGallery,
+    Ref.nextInfTeam,
+    Ref.prevInfTeam,
     {
-      margin: 10,
+      margin: 30,
     },
-    currentSlide,
   );
   // this.init();
 };
 
-export const DisplaySchedule = function ({
-  slide = 0,
-  buttons = true,
-  dots = true,
-}) {
+export const DisplayImages = function ({ items, buttons = true, dots = true }) {
   {
-    Ref.slider ? init(Ref.slider, slide) : null;
+    Ref.slider ? init(Ref.slider) : null;
+  }
+  if (!items || !items?.length) {
+    return <div />;
   }
   return (
-    <div style="position: relative;">
-      <div ref="slider" init={() => init(Ref.slider, slide)}>
-        <div class="gallery_line">
-          <div class="gallery_slide">
-            <img
-              onpointerup={() => {
-                Fn.initOne("modalGallery", { schedule: "0" });
-              }}
-              src={schedule3}
-              alt="Расписание 3 июня"
-              class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"
-            />
-          </div>
-          <div class="gallery_slide">
-            <img
-              onpointerup={() => {
-                Fn.initOne("modalGallery", { schedule: "1" });
-              }}
-              src={schedule4}
-              alt="Расписание 4 июня"
-              class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"
-            />
-          </div>
-        </div>
+    <div class={GalleryClassNamePartners} style="position: relative;">
+      <div init={init} ref="slider">
+        <div class="gallery_line">{items}</div>
       </div>
       <div
         class={["gallery_dots", dots ? null : "opacity gallery_dots_disabled"]}
         ref="galleryDots"
       ></div>
       <button
-        ref="prevTeam"
+        ref="prevInfTeam"
         class={[
           "slide__btn slide__btn_prev",
           buttons ? null : "pointer-events-none left-0 opacity-0",
@@ -388,7 +378,7 @@ export const DisplaySchedule = function ({
         <img src={back} />
       </button>
       <button
-        ref="nextTeam"
+        ref="nextInfTeam"
         class={[
           "slide__btn slide__btn_next",
           buttons ? null : "pointer-events-none right-0 opacity-0",

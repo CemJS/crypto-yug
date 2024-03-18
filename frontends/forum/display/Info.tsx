@@ -4,7 +4,18 @@ import racib from "@images/forum/racib.png";
 import logo from "@svg/logo.svg";
 import schedule3 from "@images/forum/schedule3.png";
 import schedule4 from "@images/forum/schedule4.png";
-import { DisplaySchedule } from "@elements/GalleryInfoSchedule";
+import { DisplayImages } from "@elements/GalleryInfoSchedule";
+
+const schedule = [
+  {
+    alt: "Расписание 3 июня",
+    img: schedule3,
+  },
+  {
+    alt: "Расписание 4 июня",
+    img: schedule4,
+  },
+];
 
 export default function () {
   return (
@@ -54,8 +65,23 @@ export default function () {
             <h3 class="text-[clamp(1.3rem,3vw,2.8125rem)] font-bold">
               Расписание форума
             </h3>
+            {/* <DisplayImages
+              items={schedule.map((item, index) => {
+                return (
+                  <div class="gallery_slide">
+                    <img
+                      onpointerup={() => {
+                        Fn.initOne("modalGallery", { schedule: index });
+                      }}
+                      src={item.img}
+                      alt={item.alt}
+                      class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"
+                    />
+                  </div>
+                );
+              })}
+            /> */}
             <div class="flex w-full flex-col items-center gap-5 @500:flex-row">
-              {/* <DisplaySchedule /> */}
               <img
                 onpointerup={() => {
                   Fn.initOne("modalGallery", { schedule: "0" });

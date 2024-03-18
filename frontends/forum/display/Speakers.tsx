@@ -4,12 +4,15 @@ import speakers from "@json/forum/forumSpeakers";
 let arrFinish = [];
 
 speakers.forEach((item) => {
-  if (item.visited.includes("CryptoЮГ2023") && arrFinish.length < 8) {
+  if (item.visited.includes("CryptoЮГ2024") && arrFinish.length < 8) {
     arrFinish.push(item);
   }
 });
 
 const tabs = [
+  {
+    name: "CryptoЮГ2024",
+  },
   {
     name: "CryptoЮГ2023",
   },
@@ -29,7 +32,7 @@ export default function () {
           {tabs.map((item, index) => {
             return (
               <span
-                class="z-[2] flex w-full items-center justify-center text-center text-[clamp(0.8rem,2vw,1rem)]"
+                class="z-[2] flex w-full items-center justify-center text-center text-[clamp(0.7rem,2vw,1rem)]"
                 ref="tabItem1"
                 onpointerup={() => {
                   Static.activeIndex = index;
@@ -46,7 +49,7 @@ export default function () {
             );
           })}
           <div
-            class="absolute left-0 top-0 z-[1] h-[3.75rem] w-1/2 rounded-[var(--borderR)] ease-in-out [background:rgba(255,255,255,0.09)] [box-shadow:0_0_0.625rem_0.0625rem_rgba(221,221,221,0.5)] [transition:all_0.35s]"
+            class="absolute left-0 top-0 z-[1] h-[3.75rem] w-1/3 rounded-[var(--borderR)] ease-in-out [background:rgba(255,255,255,0.09)] [box-shadow:0_0_0.625rem_0.0625rem_rgba(221,221,221,0.5)] [transition:all_0.35s]"
             ref="activeTab"
           ></div>
         </div>
@@ -69,7 +72,7 @@ export default function () {
                 >
                   <div class="mb-[0.625rem] flex w-full items-center justify-center [transition:1s]">
                     <img
-                      class="h-full w-full rounded-[50%] [border:0.125rem_solid_var(--white)]"
+                      class="aspect-[1.2] h-full max-h-[300px] w-full rounded-[50%] [border:0.125rem_solid_var(--white)]"
                       src={`/contents/forum/speakers/${item.photo}`}
                       alt="img"
                     />

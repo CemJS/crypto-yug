@@ -16,25 +16,22 @@ export default function () {
         </h2>
         <ul class="mb-10 flex flex-col gap-[0.625rem]">
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            Децентрализованные социальные сети
+            Начало пути в крипторынок для новичков и предпринимателей
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            Как начать свой путь в крипто индустрии
-          </li>
-          <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            Регуляция и её влияние на рынок
+            Юридический аспект: регулирование криптовалюты
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
             Трейдинг и как на нем заработать
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            NFT, как прикоснуться к искусству
+            NFT: новейшая форма искусства
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            Майнинг в 2024 году
+            Майнинг в 2024 году: узнаём все подводные камни
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            GameFi получай удовольствие и зарабатывай
+            GameFi: совместное развитие игровой и крипто-индустрии
           </li>
         </ul>
         <h4 class="mb-4 pl-[1.875rem] text-[clamp(0.7rem,5vw,1.8rem)] font-semibold text-[--textBlue]">
@@ -42,13 +39,13 @@ export default function () {
         </h4>
         <ul class="flex flex-col gap-[0.625rem]">
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            30+ проектов
+            40+ проектов
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            600+ участников
+            2000+ участников
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
-            30+ спикеров
+            45+ спикеров
           </li>
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
             Крупные СМИ

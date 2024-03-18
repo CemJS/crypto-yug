@@ -260,24 +260,24 @@ class Gallery {
     this.setStylePosition();
 
     //change active slide
-    if (
-      dragShift > 5 &&
-      dragShift > 0 &&
-      !this.currentSlideWasChanged &&
-      this.currentSlide > 0
-    ) {
-      this.currentSlideWasChanged = true;
-      this.currentSlide = this.currentSlide - 1;
+    if (dragShift > 5 && dragShift > 0 && !this.currentSlideWasChanged) {
+      if (this.currentSlide == 0) {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.size - 1;
+      } else {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.currentSlide - 1;
+      }
     }
 
-    if (
-      dragShift < -5 &&
-      dragShift < 0 &&
-      !this.currentSlideWasChanged &&
-      this.currentSlide < this.size - 1
-    ) {
-      this.currentSlideWasChanged = true;
-      this.currentSlide = this.currentSlide + 1;
+    if (dragShift < -5 && dragShift < 0 && !this.currentSlideWasChanged) {
+      if (this.currentSlide == this.size - 1) {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = 0;
+      } else {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.currentSlide + 1;
+      }
     }
   }
 

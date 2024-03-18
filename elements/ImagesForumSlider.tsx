@@ -84,28 +84,16 @@ class Gallery {
     this.setParameters();
     this.destroyEvents();
     this.setEvents();
-    this.resizeGallery();
+
+    setTimeout(() => {
+      this.resizeGallery();
+    }, 500);
     // Static.interval = setInterval(this.clickNext, 4000);
   }
 
   manageHTML() {
-    // if (!this.firstManage) {
     this.element.classList.add(GalleryClassName);
-    // this.element.innerHTML = `
-    //       <div class="${GalleryLineClassName}">
-    //           ${this.element.innerHTML}
-    //       <div>
-    //   `;
-
     this.lineNode = this.element.querySelector(`.${GalleryLineClassName}`);
-
-    // this.slideItems = Array.from(this.lineNode.children).map((childNode) => {
-    //   wrapElementByDiv({
-    //     element: childNode,
-    //     className: GallerySlideClassName,
-    //   });
-    // });
-    // }
     this.dots.classList.add(GalleryDotsClassName);
     this.dots.innerHTML = "";
 
@@ -181,9 +169,9 @@ class Gallery {
     this.lineNode.removeEventListener("pointerdown", this.startDrag);
     window.removeEventListener("pointerup", this.stopDrag);
     window.removeEventListener("pointercancel", this.stopDrag);
-    this.dots.removeEventListener("click", this.clickDots);
-    this.next.removeEventListener("click", this.clickNext);
-    this.prev.removeEventListener("click", this.clickPrev);
+    // this.dots.removeEventListener("click", this.clickDots);
+    // this.next.removeEventListener("click", this.clickNext);
+    // this.prev.removeEventListener("click", this.clickPrev);
   }
 
   resizeGallery() {
@@ -285,24 +273,24 @@ class Gallery {
     this.setStylePosition();
 
     //change active slide
-    if (
-      dragShift > 5 &&
-      dragShift > 0 &&
-      !this.currentSlideWasChanged &&
-      this.currentSlide > 0
-    ) {
-      this.currentSlideWasChanged = true;
-      this.currentSlide = this.currentSlide - 1;
+    if (dragShift > 5 && dragShift > 0 && !this.currentSlideWasChanged) {
+      if (this.currentSlide == 0) {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.size - 1;
+      } else {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.currentSlide - 1;
+      }
     }
 
-    if (
-      dragShift < -5 &&
-      dragShift < 0 &&
-      !this.currentSlideWasChanged &&
-      this.currentSlide < this.size - 1
-    ) {
-      this.currentSlideWasChanged = true;
-      this.currentSlide = this.currentSlide + 1;
+    if (dragShift < -5 && dragShift < 0 && !this.currentSlideWasChanged) {
+      if (this.currentSlide == this.size - 1) {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = 0;
+      } else {
+        this.currentSlideWasChanged = true;
+        this.currentSlide = this.currentSlide + 1;
+      }
     }
   }
 
