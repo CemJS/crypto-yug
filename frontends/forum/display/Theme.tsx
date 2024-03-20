@@ -4,7 +4,7 @@ export default function () {
   return (
     <section
       id="theme"
-      class="relative z-[2] pb-10 pt-[11.25rem] [background:url(/contents/forum/text-light-HNV7S6DT.png)_no-repeat_top_-150px_center/700px_auto]"
+      class="relative z-[2] pb-10 pt-[4.25rem] [background:url(/contents/forum/text-light-HNV7S6DT.png)_no-repeat_top_-250px_center/700px_auto]"
     >
       <div class="wrapper wrapper_padding">
         <p class="mb-12 ml-auto mr-auto max-w-[28.625rem] text-center text-[clamp(1.2rem,2vw,1.5rem)] font-semibold leading-[1.2]">

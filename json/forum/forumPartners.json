@@ -1,5 +1,10 @@
 [
   {
+    "url": "--сбер--",
+    "logo": "partner28.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
     "url": "https://keine-exchange.com/?rid=29633",
     "logo": "partner1.png",
     "visited": ["CryptoЮГ2022"]
@@ -58,5 +63,30 @@
     "url": "https://t.me/unionclub_chat",
     "logo": "partner27.png",
     "visited": ["CryptoЮГ2023"]
+  },
+  {
+    "url": "--криптополигон--",
+    "logo": "partner32.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "url": "https://codefest.ru",
+    "logo": "partner33.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "url": "https://thetrends.tech/?partner_id=341",
+    "logo": "partner34.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "url": "https://bestchange.ru/",
+    "logo": "partner35.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "url": "https://partners.tinkoff.ru/click/75769757-da6f-4eb5-9aac-29298ab44d46",
+    "logo": "partner31.png",
+    "visited": ["CryptoЮГ2024"]
   }
 ]
