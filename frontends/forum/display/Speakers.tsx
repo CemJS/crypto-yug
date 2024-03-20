@@ -70,9 +70,9 @@ export default function () {
                     "mx-auto flex w-full max-w-[14.5rem] flex-col items-center rounded-[50%] @550:max-w-[unset]",
                   ]}
                 >
-                  <div class="mb-[0.625rem] flex w-full items-center justify-center [transition:1s]">
+                  <div class="relative mb-[0.625rem] flex h-[340px] w-full items-center justify-center overflow-hidden rounded-[50%] [border:0.125rem_solid_var(--white)] [transition:1s]">
                     <img
-                      class="aspect-[1.2] h-full max-h-[300px] w-full rounded-[50%] [border:0.125rem_solid_var(--white)]"
+                      class="absolute bottom-0 top-0 max-h-[440px] w-full object-cover"
                       src={`/contents/forum/speakers/${item.photo}`}
                       alt="img"
                     />

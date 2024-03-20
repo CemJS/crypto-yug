@@ -2,7 +2,7 @@ import { Cemjsx, Fn, Ref, Static } from "cemjs-all";
 
 export default function () {
   return (
-    <section class="flex flex-col gap-[1.875rem]">
+    <section class="flex flex-col gap-[1.875rem] pt-20">
       <div class="rounded-[10px] p-[0.5rem_1.25rem] [background:var(--opacity-gray)] [border:0.0625rem_solid_var(--green-light)]">
         <div class="text-[clamp(0.9rem,3vw,1.4rem)] leading-[1.3]">
           <span class="font-bold text-[--green]">Crypto Юг 2024</span> -

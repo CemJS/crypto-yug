@@ -33,12 +33,12 @@ export default function () {
       <Intro />
       <Info />
       <div class="wrapper wrapper_padding relative z-[2]">
-        <Opportunities />
         <Confidence />
         <Images />
         <Speakers />
         {/* <Stend /> */}
         <Guests />
+        <Opportunities />
       </div>
 
       <Theme />
