@@ -1,4 +1,4 @@
-import { Cemjsx, Fn, Ref, Static, front } from "cemjs-all";
+import { Cemjsx, Fn, Func, Ref, Static, front } from "cemjs-all";
 import { DisplaySchedule } from "@elements/GallerySchedule";
 import { DisplayImages } from "@elements/GalleryForumImages";
 
@@ -9,14 +9,34 @@ export default function () {
       ref="modalWindow"
       onpointerup={(e) => {
         if (e.target === Ref.modalBody) {
-          setTimeout(() => {
-            Fn.clearData();
-            front.Variable.$el.body.classList.remove("activeModal");
-            front.Variable.$el.body.style.overflow = "auto";
-          }, 5);
+          Func.close();
         }
       }}
     >
+      <svg
+        onclick={Func.close}
+        id="close"
+        class="absolute right-4 top-4 h-14 w-14 cursor-pointer"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"
+        />
+      </svg>
+      {/* <button
+        onclick={Func.close}
+        id="close"
+        class="absolute right-4 top-4 text-[5rem]"
+      >
+        x
+      </button> */}
       <div class="modalWindow_body" ref="modalBody">
         <div class="modalWindow_content modalWindow_content_gallery !w-full px-[35px] @1280:!w-[70%]">
           <main class="modalWindow_main w-full">

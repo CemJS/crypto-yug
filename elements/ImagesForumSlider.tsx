@@ -1,4 +1,4 @@
-import { Cemjsx, Fn, Ref, Static } from "cemjs-all";
+import { Cemjsx, Fn, Ref, Static, front } from "cemjs-all";
 import back from "@svg/icon/prev.svg";
 import next from "@svg/icon/next.svg";
 
@@ -159,9 +159,9 @@ class Gallery {
     this.lineNode.addEventListener("pointerdown", this.startDrag);
     window.addEventListener("pointerup", this.stopDrag);
     window.addEventListener("pointercancel", this.stopDrag);
-    this.dots.addEventListener("click", this.clickDots);
-    this.next.addEventListener("click", this.clickNext);
-    this.prev.addEventListener("click", this.clickPrev);
+    this.dots.addEventListener("pointerdown", this.clickDots);
+    this.next.addEventListener("pointerdown", this.clickNext);
+    this.prev.addEventListener("pointerdown", this.clickPrev);
   }
 
   destroyEvents() {

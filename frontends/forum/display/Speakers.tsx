@@ -57,7 +57,7 @@ export default function () {
         {/* speakers */}
 
         <div
-          class="grid grid-cols-2 gap-[7vw] [transition:2s_linear] @550:grid-cols-2 @1000:grid-cols-3 @1000:gap-[80px] "
+          class="grid grid-cols-2 gap-[7vw] [transition:2s_linear] @550:grid-cols-2 @767:grid-cols-3 @1000:gap-[80px] "
           ref="speakersContent"
         >
           {speakers
@@ -70,9 +70,9 @@ export default function () {
                     "mx-auto flex w-full max-w-[14.5rem] flex-col items-center rounded-[50%] @550:max-w-[unset]",
                   ]}
                 >
-                  <div class="mb-[0.625rem] flex max-h-[340px] w-full items-center justify-center overflow-hidden rounded-[50%] [border:0.125rem_solid_var(--white)] [transition:1s]">
+                  <div class="mb-[0.625rem] flex max-h-[340px] w-full items-center justify-center overflow-hidden rounded-[50%] text-center [border:0.125rem_solid_var(--white)] [transition:1s]">
                     <img
-                      class="bottom-0 top-0 aspect-square max-h-[440px] w-full object-cover"
+                      class="bottom-0 top-0 aspect-square max-h-[440px] w-full object-cover pt-2"
                       src={`/contents/forum/speakers/${item.photo}`}
                       alt="img"
                     />

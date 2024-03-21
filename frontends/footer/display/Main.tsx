@@ -20,25 +20,46 @@ export default function () {
               return (
                 <a
                   href={!Array.isArray(item.href) ? item.href : ""}
-                  onclick={(e) => {
+                  ontouchend={(e) => {
                     if (!Array.isArray(item.href)) {
                       Fn.link(e);
                     } else {
                       e.preventDefault();
-                      Ref[`lang${i}`].classList.toggle("opacity-100");
-                      Ref[`lang${i}`].classList.toggle("!pointer-events-auto");
+                      Ref[`lang${i}`].classList.add("opacity-100");
+                      Ref[`lang${i}`].classList.add("!pointer-events-auto");
                       setTimeout(() => {
-                        Ref[`lang${i}`].classList.toggle("opacity-100");
-                        Ref[`lang${i}`].classList.toggle(
+                        Ref[`lang${i}`].classList.remove("opacity-100");
+                        Ref[`lang${i}`].classList.remove(
                           "!pointer-events-auto",
                         );
                       }, 1500);
                     }
                   }}
+                  onclick={(e) => {
+                    if (e.pointerType == "mouse") {
+                      if (!Array.isArray(item.href)) {
+                        Fn.link(e);
+                      } else {
+                        e.preventDefault();
+                        Ref[`lang${i}`].classList.add("opacity-100");
+                        Ref[`lang${i}`].classList.add("!pointer-events-auto");
+                        setTimeout(() => {
+                          Ref[`lang${i}`].classList.remove("opacity-100");
+                          Ref[`lang${i}`].classList.remove(
+                            "!pointer-events-auto",
+                          );
+                        }, 1500);
+                      }
+                    }
+                  }}
                   target={!Array.isArray(item.href) ? "_blank" : ""}
                   class="relative inline-flex h-8 w-8 touch-none items-center justify-center rounded-[--ellipse] [background:rgba(255,255,255,0.09)] [box-shadow:0rem_0.3125rem_2.75rem_0rem_rgba(29,33,45,0.8)] [transition:all_0.3s_ease] hover:scale-110 hover:[background:transparent] hover:[border:0.0625rem_solid_var(--border)]"
                 >
-                  <img class="h-[0.7rem]" src={item.img} alt={item.alt} />
+                  <img
+                    class="pointer-events-none h-[0.7rem]"
+                    src={item.img}
+                    alt={item.alt}
+                  />
                   {Array.isArray(item.href) ? (
                     <div
                       ref={`lang${i}`}
@@ -50,6 +71,12 @@ export default function () {
                             href={item.href}
                             target="_blank"
                             onclick={(e) => {
+                              if (e.pointerType == "mouse") {
+                                e.stopPropagation();
+                                Fn.link(e);
+                              }
+                            }}
+                            ontouchend={(e) => {
                               e.stopPropagation();
                               Fn.link(e);
                             }}

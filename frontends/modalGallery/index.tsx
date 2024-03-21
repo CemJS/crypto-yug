@@ -10,6 +10,15 @@ front.listener.finish = () => {
   return;
 };
 
+front.func.close = () => {
+  setTimeout(() => {
+    Fn.clearData();
+    front.Variable.$el.body.classList.remove("activeModal");
+    front.Variable.$el.body.style.overflow = "auto";
+  }, 5);
+  return;
+};
+
 front.func.test = () => {
   return;
 };
