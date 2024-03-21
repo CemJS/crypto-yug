@@ -1,6 +1,7 @@
 import { Cemjsx, Fn, Ref, Static } from "cemjs-all";
 import guests from "@json/forum/forumGuests";
 import youtube from "@images/forum/youtube.svg";
+import youtubeWhite from "@images/forum/youtube-white.svg";
 
 export default function () {
   return (
@@ -13,6 +14,13 @@ export default function () {
           Гости Crypto Emergency
         </h2>
       </div>
+      <a
+        target="_blank"
+        class="mb-3 ml-2 w-full max-w-[100px] @500:max-w-[130px] @767:mb-7 @767:ml-7 @767:max-w-[150px]"
+        href="https://www.youtube.com/@cryptoemergency"
+      >
+        <img class="w-full" src={youtubeWhite} alt="Youtube" />
+      </a>
       <div class="grid w-full gap-[1.875rem] [grid-template-columns:repeat(2,minmax(7.375rem,1fr))] @1000:[grid-template-columns:repeat(3,minmax(7.375rem,1fr))] xl:[grid-template-columns:repeat(4,minmax(7.375rem,1fr))]">
         {guests.map((item) => {
           return (
