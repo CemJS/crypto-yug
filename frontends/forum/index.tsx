@@ -16,6 +16,7 @@ front.loader = () => {
   Static.howMutchSpeakers = 6;
   Static.speakersTabName = "CryptoЮГ2024";
   Static.partnersTabName = "CryptoЮГ2024";
+
   // Static.partners = partners.filter((item) => item.visited.includes(Static.partnersTabName));
   return;
 };
