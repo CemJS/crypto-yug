@@ -23,6 +23,14 @@ export default function () {
     <section class="relative z-[2] mb-[4.375rem]">
       <div class="wrapper wrapper_padding">
         <div class="flex flex-col items-center gap-[2.5rem] text-center">
+          <button
+            type="button"
+            class="tc-background-yellow mx-auto"
+            data-tc-event="65fd54c03cf81bc781cd685a"
+            data-tc-token="eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjVmZDRmY2MzY2Y4MWJjNzgxY2Q2NWUxIn0.iCwX4g9OTJmsV8-kIU43WN89XFvg9oIG6MP_G2j9g1I"
+          >
+            Купить билет
+          </button>
           <div class="w-[70%] max-w-[53.125rem]">
             <div class="text-[clamp(0.9rem,3vw,2.8125rem)] leading-[1.3]">
               Команда{" "}
