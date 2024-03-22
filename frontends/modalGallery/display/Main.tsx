@@ -14,7 +14,10 @@ export default function () {
       }}
     >
       <svg
-        onpointerdown={Func.close}
+        onpointerdown={(e) => {
+          e.stopPropagation();
+          Func.close();
+        }}
         id="close"
         class="absolute right-4 top-4 h-14 w-14 cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"
