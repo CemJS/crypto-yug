@@ -13,18 +13,16 @@ export default function () {
             return (
               <a
                 ontouchend={(e) => {
-                  console.log("=824d0f=", "touch");
                   Fn.link(e);
                 }}
                 onclick={(e) => {
                   if (e.pointerType == "mouse") {
-                    console.log("=824d0f=", "mouse");
                     Fn.link(e);
                   }
                 }}
                 href={item.url}
                 target="_blank"
-                class="flex h-[120px] w-full overflow-hidden rounded-[10px] pb-[10px] pt-[10px] text-center [border:1px_solid_#01c8ab]"
+                class="flex h-[120px] w-full overflow-hidden rounded-[10px] pb-[10px] pt-[10px] text-center [border:var(--btnR)_solid_#01c8ab]"
               >
                 <img
                   class="m-auto max-h-[100%] max-w-[82%]"

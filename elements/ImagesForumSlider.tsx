@@ -142,8 +142,8 @@ class Gallery {
       slideNode.style.minWidth = `${width}px`;
       slideNode.style.maxWidth = `${width}px`;
       slideNode.style.marginRight = `${this.settings.margin}px`;
-      slideNode.style.minHeight = `${Static.height}px`;
-      slideNode.style.maxHeight = `${Static.height}px`;
+      // slideNode.style.minHeight = `${Static.height}px`;
+      // slideNode.style.maxHeight = `${Static.height}px`;
       await new Promise((resolve) =>
         setTimeout(() => {
           i == 0 ? (Static.height = slideNode.offsetHeight) : null;

@@ -70,7 +70,7 @@ export default function () {
                     "mx-auto flex w-full max-w-[14.5rem] flex-col items-center rounded-[50%] @550:max-w-[unset]",
                   ]}
                 >
-                  <div class="mb-[0.625rem] flex w-full items-center justify-center overflow-hidden rounded-[50%] text-center [transition:1s] [border:2px_solid_#00D5BE]">
+                  <div class="mb-[0.625rem] flex w-full items-center justify-center overflow-hidden rounded-[50%] text-center [border:var(--btnR)_solid_#00D5BE] [transition:1s]">
                     <img
                       class="bottom-0 top-0 aspect-square max-h-[440px] w-full object-cover"
                       src={`/contents/forum/speakers/${item.photo}`}
@@ -112,7 +112,7 @@ export default function () {
       >
         <span
           ref="buttonSpan"
-          class="mx-auto my-4 cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-[clamp(1.3rem,2vw,1.6875rem)] font-bold [background:--greenGradient] [border:0.4px_solid_var(--green)] @1000:p-[0.625rem_1.5625rem] @1280:mx-0"
+          class="mx-auto my-4 cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-[clamp(1.3rem,2vw,1.6875rem)] font-bold [background:--greenGradient] [border:var(--btnR)_solid_var(--green)] @1000:p-[0.625rem_1.5625rem] @1280:mx-0"
         >
           Показать всех
         </span>

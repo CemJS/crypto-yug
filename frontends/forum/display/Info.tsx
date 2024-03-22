@@ -63,10 +63,15 @@ export default function () {
           </div>
           <div class="flex flex-col gap-5">
             <h3
-              onclick={() => {
+              ontouchend={() => {
                 Fn.initOne("modalGallery", { schedule: "0" });
               }}
-              class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center text-[clamp(1.3rem,3vw,2.8125rem)] font-bold [background:--greenGradient] [border:0.4px_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
+              onclick={(e) => {
+                if (e.pointerType == "mouse") {
+                  Fn.initOne("modalGallery", { schedule: "0" });
+                }
+              }}
+              class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center text-[clamp(1.3rem,3vw,2.8125rem)] font-bold [background:--greenGradient] [border:var(--btnR)_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
             >
               Расписание форума
             </h3>

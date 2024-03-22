@@ -7,7 +7,7 @@ export default function () {
   return (
     <section
       id="guests"
-      class="relative z-[2] mt-[60px] flex flex-col justify-center"
+      class="relative z-[2] mt-[30px] flex flex-col justify-center"
     >
       <div class="mb-10 inline-flex flex-col items-center justify-center gap-1 @464:flex-row @767:mb-20">
         <h2 class="inline-block text-center text-[clamp(1.5rem,4vw,5.625rem)] font-bold">
@@ -26,12 +26,10 @@ export default function () {
           return (
             <a
               ontouchend={(e) => {
-                console.log("=824d0f=", "touch");
                 Fn.link(e);
               }}
               onclick={(e) => {
                 if (e.pointerType == "mouse") {
-                  console.log("=824d0f=", "mouse");
                   Fn.link(e);
                 }
               }}
@@ -51,12 +49,6 @@ export default function () {
               <h4 class="mb-2 text-center text-[clamp(0.8rem,2vw,1.5rem)] font-medium leading-[1.2] text-[--white]">
                 {item.name}
               </h4>
-              {/* <button class="text-[clamp(2rem, 2vw, 3.25rem)] mx-auto my-3 flex cursor-pointer items-center justify-center gap-1 whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center font-bold [background:--greenGradient] [border:0.4px_solid_var(--green)] [transition:all_1s_ease]">
-                <span class="text-[clamp(0.8rem,2vw,1rem)]">
-                  Cмотреть <span class="hidden @500:inline">эфир</span>
-                </span>
-                <img class="h-[30px]" src={youtube} alt="Youtube" />
-              </button> */}
               <p class="text-[clamp(0.75rem,2vw,1rem)] leading-[1.2]">
                 {item.desc}
               </p>

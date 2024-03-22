@@ -14,7 +14,7 @@ export default function () {
       }}
     >
       <svg
-        onclick={Func.close}
+        onpointerdown={Func.close}
         id="close"
         class="absolute right-4 top-4 h-14 w-14 cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"

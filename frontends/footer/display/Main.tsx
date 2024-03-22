@@ -53,7 +53,7 @@ export default function () {
                     }
                   }}
                   target={!Array.isArray(item.href) ? "_blank" : ""}
-                  class="relative inline-flex h-8 w-8 touch-none items-center justify-center rounded-[--ellipse] [background:rgba(255,255,255,0.09)] [box-shadow:0rem_0.3125rem_2.75rem_0rem_rgba(29,33,45,0.8)] [transition:all_0.3s_ease] hover:scale-110 hover:[background:transparent] hover:[border:0.0625rem_solid_var(--border)]"
+                  class="relative inline-flex h-8 w-8 touch-none items-center justify-center rounded-[--ellipse] [background:rgba(255,255,255,0.09)] [box-shadow:0rem_0.3125rem_2.75rem_0rem_rgba(29,33,45,0.8)] [transition:all_0.3s_ease] hover:scale-110 hover:[background:transparent] hover:[border:1px_solid_var(--border)]"
                 >
                   <img
                     class="pointer-events-none h-[0.7rem]"
