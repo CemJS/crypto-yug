@@ -27,7 +27,7 @@ export default function () {
             <a
               href={item.href}
               target="_blank"
-              class="mx-auto w-full max-w-[18.75rem] text-center"
+              class="mx-auto w-full max-w-[18.75rem] cursor-pointer text-center"
             >
               <div class="relative mb-4 aspect-[1.77] w-full overflow-hidden rounded-[0.625rem]">
                 <img src={item.image} alt={item.name} class="w-full" />

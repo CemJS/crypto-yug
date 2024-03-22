@@ -38,7 +38,7 @@ export default function () {
         x
       </button> */}
       <div class="modalWindow_body" ref="modalBody">
-        <div class="modalWindow_content modalWindow_content_gallery !w-full px-[35px] @1280:!w-[70%]">
+        <div class="modalWindow_content modalWindow_content_gallery px-[35px]">
           <main class="modalWindow_main w-full">
             <div class="modalGallery_carousel">
               {Static.schedule ? (

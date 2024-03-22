@@ -38,7 +38,7 @@ export default function () {
             Static.active = !Static.active;
           }}
           class={[
-            "group ml-auto mr-3 w-[32px] cursor-pointer space-y-2 *:pointer-events-none *:[transition:all_0.4s_ease] @700:hidden [&.active_.first]:translate-y-[10px] [&.active_.first]:-rotate-45 [&.active_.second]:opacity-0 [&.active_.third]:translate-y-[-10px] [&.active_.third]:rotate-45",
+            "group ml-auto mr-3 cursor-pointer space-y-2 p-4 *:pointer-events-none *:[transition:all_0.4s_ease] @700:hidden [&.active_.first]:translate-y-[10px] [&.active_.first]:-rotate-45 [&.active_.second]:opacity-0 [&.active_.third]:translate-y-[-10px] [&.active_.third]:rotate-45",
             Static.active ? "active" : null,
           ]}
         >

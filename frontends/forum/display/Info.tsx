@@ -18,6 +18,7 @@ const schedule = [
 ];
 
 export default function () {
+  let clickTimer;
   return (
     <section class="relative z-[2] mb-[4.375rem]">
       <div class="wrapper wrapper_padding">
@@ -63,13 +64,14 @@ export default function () {
           </div>
           <div class="flex flex-col gap-5">
             <h3
-              ontouchend={() => {
-                Fn.initOne("modalGallery", { schedule: "0" });
+              onpointerdown={() => {
+                clickTimer = false;
+                setTimeout(() => {
+                  clickTimer = true;
+                }, 100);
               }}
-              onclick={(e) => {
-                if (e.pointerType == "mouse") {
-                  Fn.initOne("modalGallery", { schedule: "0" });
-                }
+              onpointerup={() => {
+                !clickTimer ? Fn.initOne("modalGallery", { schedule: "0" }) : 0;
               }}
               class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center text-[clamp(1.3rem,3vw,2.8125rem)] font-bold [background:--greenGradient] [border:var(--btnR)_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
             >

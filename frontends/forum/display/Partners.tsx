@@ -14,7 +14,7 @@ export default function () {
               <a
                 href={item.url}
                 target="_blank"
-                class="flex h-[120px] w-full overflow-hidden rounded-[10px] pb-[10px] pt-[10px] text-center [border:var(--btnR)_solid_#01c8ab]"
+                class="flex h-[120px] w-full cursor-pointer overflow-hidden rounded-[10px] pb-[10px] pt-[10px] text-center [border:var(--btnR)_solid_#01c8ab]"
               >
                 <img
                   class="m-auto max-h-[100%] max-w-[82%]"

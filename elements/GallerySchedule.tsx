@@ -349,10 +349,20 @@ export const DisplaySchedule = function ({ slide = 0 }) {
       <div ref="slider" init={() => init(Ref.slider, slide)}>
         <div class="gallery_line">
           <div class="gallery_slide">
-            <img src={schedule3} alt="Расписание 3 июня" draggable="false" />
+            <img
+              class="max-w-[35rem] @1000:max-w-[auto]"
+              src={schedule3}
+              alt="Расписание 3 июня"
+              draggable="false"
+            />
           </div>
           <div class="gallery_slide">
-            <img src={schedule4} alt="Расписание 4 июня" draggable="false" />
+            <img
+              class="max-w-[35rem] @1000:max-w-[auto]"
+              src={schedule4}
+              alt="Расписание 4 июня"
+              draggable="false"
+            />
           </div>
         </div>
       </div>
