@@ -371,8 +371,8 @@ export const DisplayImages = function ({ items, buttons = true, dots = true }) {
       <button
         ref="prevTeam"
         class={[
-          "slide__btn slide__btn_prev",
-          buttons ? null : "pointer-events-none left-0 opacity-0",
+          "slide__btn",
+          buttons ? null : "pointer-events-none relative left-4 opacity-0",
         ]}
       >
         <img src={back} />
@@ -380,8 +380,8 @@ export const DisplayImages = function ({ items, buttons = true, dots = true }) {
       <button
         ref="nextTeam"
         class={[
-          "slide__btn slide__btn_next",
-          buttons ? null : "pointer-events-none right-0 opacity-0",
+          "slide__btn",
+          buttons ? null : "pointer-events-none relative right-4 opacity-0",
         ]}
       >
         <img src={next} />
