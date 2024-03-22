@@ -22,8 +22,6 @@ export default function () {
         <img class="w-full" src={youtubeWhite} alt="Youtube" />
       </a>
       <div class="grid w-full gap-[1.875rem] [grid-template-columns:repeat(2,minmax(7.375rem,1fr))] @1000:[grid-template-columns:repeat(3,minmax(7.375rem,1fr))] xl:[grid-template-columns:repeat(4,minmax(7.375rem,1fr))]">
-        <a href="https://youtu.be/Ga7Ykwoi9WU">youtu</a>
-        <a href="https://github.com/">google</a>
         {guests.map((item) => {
           return (
             <a
@@ -31,7 +29,7 @@ export default function () {
               target="_blank"
               class="mx-auto w-full max-w-[18.75rem] cursor-pointer touch-manipulation text-center"
             >
-              <div class="relative mb-4 aspect-[1.77] w-full rounded-[0.625rem]">
+              <div class="relative mb-4 aspect-[1.77] w-full overflow-hidden rounded-[0.625rem]">
                 <img src={item.image} alt={item.name} class="w-full" />
                 <img
                   class="absolute bottom-2 left-2"
