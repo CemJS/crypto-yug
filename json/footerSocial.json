@@ -1,16 +1,7 @@
 [
   {
     "img": "/contents/icons/social_networks/youtube.svg",
-    "href": [
-      {
-        "href": "https://www.youtube.com/channel/UCb9Fx-fNikzs-OZwnTXepLg/",
-        "lang": "RU"
-      },
-      {
-        "href": "https://www.youtube.com/channel/UCdDWOveIuvqkyusDK1gv4ig/",
-        "lang": "EN"
-      }
-    ],
+    "href": "https://www.youtube.com/channel/UCb9Fx-fNikzs-OZwnTXepLg/",
     "alt": "youtube"
   },
   {
@@ -25,44 +16,17 @@
   },
   {
     "img": "/contents/icons/social_networks/instagram.svg",
-    "href": [
-      {
-        "href": "https://www.instagram.com/cryptoemergencyrussia/?hl=ru",
-        "lang": "RU"
-      },
-      {
-        "href": "https://www.instagram.com/cryptoemergency/?hl=ru",
-        "lang": "EN"
-      }
-    ],
+    "href": "https://www.instagram.com/cryptoemergencyrussia/?hl=ru",
     "alt": "instagram"
   },
   {
     "img": "/contents/icons/social_networks/tiktok.svg",
-    "href": [
-      {
-        "href": "https://www.tiktok.com/@cryptoemergencyrussia",
-        "lang": "RU"
-      },
-      {
-        "href": "https://www.tiktok.com/@cryptoemergency",
-        "lang": "EN"
-      }
-    ],
+    "href": "https://www.tiktok.com/@cryptoemergencyrussia",
     "alt": "tiktok"
   },
   {
     "img": "/contents/icons/social_networks/telegram.svg",
-    "href": [
-      {
-        "href": "https://t.me/cryptoemergencychat",
-        "lang": "RU"
-      },
-      {
-        "href": "https://t.me/emergencycrypto",
-        "lang": "EN"
-      }
-    ],
+    "href": "https://t.me/cryptoemergencychat",
     "alt": "telegram"
   },
   {

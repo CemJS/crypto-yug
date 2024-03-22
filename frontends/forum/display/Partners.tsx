@@ -12,14 +12,6 @@ export default function () {
           {partners?.map((item) => {
             return (
               <a
-                ontouchend={(e) => {
-                  Fn.link(e);
-                }}
-                onclick={(e) => {
-                  if (e.pointerType == "mouse") {
-                    Fn.link(e);
-                  }
-                }}
                 href={item.url}
                 target="_blank"
                 class="flex h-[120px] w-full overflow-hidden rounded-[10px] pb-[10px] pt-[10px] text-center [border:var(--btnR)_solid_#01c8ab]"

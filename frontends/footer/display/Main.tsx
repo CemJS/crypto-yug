@@ -19,40 +19,8 @@ export default function () {
             {socials.map((item, i) => {
               return (
                 <a
-                  href={!Array.isArray(item.href) ? item.href : ""}
-                  ontouchend={(e) => {
-                    if (!Array.isArray(item.href)) {
-                      Fn.link(e);
-                    } else {
-                      e.preventDefault();
-                      Ref[`lang${i}`].classList.add("opacity-100");
-                      Ref[`lang${i}`].classList.add("!pointer-events-auto");
-                      setTimeout(() => {
-                        Ref[`lang${i}`].classList.remove("opacity-100");
-                        Ref[`lang${i}`].classList.remove(
-                          "!pointer-events-auto",
-                        );
-                      }, 1500);
-                    }
-                  }}
-                  onclick={(e) => {
-                    if (e.pointerType == "mouse") {
-                      if (!Array.isArray(item.href)) {
-                        Fn.link(e);
-                      } else {
-                        e.preventDefault();
-                        Ref[`lang${i}`].classList.add("opacity-100");
-                        Ref[`lang${i}`].classList.add("!pointer-events-auto");
-                        setTimeout(() => {
-                          Ref[`lang${i}`].classList.remove("opacity-100");
-                          Ref[`lang${i}`].classList.remove(
-                            "!pointer-events-auto",
-                          );
-                        }, 1500);
-                      }
-                    }
-                  }}
-                  target={!Array.isArray(item.href) ? "_blank" : ""}
+                  href={item.href}
+                  target="_blank"
                   class="relative inline-flex h-8 w-8 touch-none items-center justify-center rounded-[--ellipse] [background:rgba(255,255,255,0.09)] [box-shadow:0rem_0.3125rem_2.75rem_0rem_rgba(29,33,45,0.8)] [transition:all_0.3s_ease] hover:scale-110 hover:[background:transparent] hover:[border:1px_solid_var(--border)]"
                 >
                   <img
@@ -60,34 +28,6 @@ export default function () {
                     src={item.img}
                     alt={item.alt}
                   />
-                  {Array.isArray(item.href) ? (
-                    <div
-                      ref={`lang${i}`}
-                      class="pointer-events-none absolute left-0 top-[-5px] flex items-center justify-between gap-[0.625rem] rounded-[--borderR] bg-[#3b2d4a] px-[0.625rem] py-[0.3125rem] opacity-0 [transform:translate(-30%,-100%)] [transition:all_0.2s_ease-in-out]"
-                    >
-                      {item.href.map((item) => {
-                        return (
-                          <a
-                            href={item.href}
-                            target="_blank"
-                            onclick={(e) => {
-                              if (e.pointerType == "mouse") {
-                                e.stopPropagation();
-                                Fn.link(e);
-                              }
-                            }}
-                            ontouchend={(e) => {
-                              e.stopPropagation();
-                              Fn.link(e);
-                            }}
-                            class="text-[--white]"
-                          >
-                            {item.lang}
-                          </a>
-                        );
-                      })}
-                    </div>
-                  ) : null}
                 </a>
               );
             })}

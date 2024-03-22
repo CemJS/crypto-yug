@@ -16,7 +16,8 @@ export default function () {
           {menu.map((item) => {
             return (
               <a
-                onpointerdown={() => {
+                onpointerdown={(e) => {
+                  e.stopPropagation();
                   Static.active = false;
                   document.querySelector(item.link).scrollIntoView({
                     behavior: "smooth",

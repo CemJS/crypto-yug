@@ -25,14 +25,6 @@ export default function () {
         {guests.map((item) => {
           return (
             <a
-              ontouchend={(e) => {
-                Fn.link(e);
-              }}
-              onclick={(e) => {
-                if (e.pointerType == "mouse") {
-                  Fn.link(e);
-                }
-              }}
               href={item.href}
               target="_blank"
               class="mx-auto w-full max-w-[18.75rem] text-center"
