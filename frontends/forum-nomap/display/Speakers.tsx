@@ -34,7 +34,7 @@ export default function () {
               <span
                 class="z-[2] flex w-full items-center justify-center text-center text-[clamp(0.7rem,2vw,1rem)]"
                 ref="tabItem1"
-                onpointerup={() => {
+                onpointerdown={() => {
                   Static.activeIndex = index;
                   Ref.activeTab.style.left = `${Ref.tabItem1.offsetWidth * Static.activeIndex}px`;
                   Static.speakersTabName = item.name;
