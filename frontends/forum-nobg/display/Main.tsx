@@ -28,21 +28,21 @@ interface Course {
 export default function () {
   return (
     <div>
-      {/* <Intro />
-      <Info /> */}
+      <Intro />
+      <Info />
       <div class="wrapper wrapper_padding relative z-[2]">
-        {/* <Images />
-        <Speakers /> */}
-        {/* <Stend /> */}
+        <Images />
+        <Speakers />
+        <Stend />
         <Guests />
-        {/* <Opportunities /> */}
+        <Opportunities />
       </div>
 
-      {/* <Theme />
+      <Theme />
 
       <Partners />
 
-      <Destination /> */}
+      <Destination />
     </div>
   );
 }

@@ -1,4 +1,4 @@
 {
-  "url": "/partners",
-  "front": ["forum-nomap"]
+  "url": "/nobg",
+  "front": ["forum-nomap", "footer"]
 }

@@ -19,7 +19,7 @@ export default function () {
           Func.close();
         }}
         id="close"
-        class="absolute right-4 top-4 h-14 w-14 cursor-pointer"
+        class="absolute right-4 top-4 z-10 h-14 w-14 cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -41,7 +41,7 @@ export default function () {
         x
       </button> */}
       <div class="modalWindow_body" ref="modalBody">
-        <div class="modalWindow_content modalWindow_content_gallery px-[35px]">
+        <div class="modalWindow_content modalWindow_content_gallery px-[60px]">
           <main class="modalWindow_main w-full">
             <div class="modalGallery_carousel">
               {Static.schedule ? (
