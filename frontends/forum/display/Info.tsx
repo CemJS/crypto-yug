@@ -25,7 +25,7 @@ export default function () {
         <div class="flex flex-col items-center gap-[2.5rem] text-center">
           <button
             type="button"
-            class="!@1000:p-[0.625rem_1.5625rem] mx-auto !cursor-pointer !whitespace-nowrap !rounded-[0.875rem] !p-[0.3125rem_0.9375rem] !text-[clamp(1.3rem,2vw,1.6875rem)] !font-bold ![background:--greenGradient] ![border:var(--btnR)_solid_var(--green)]"
+            class="!@1000:p-[0.625rem_1.5625rem] mx-auto !cursor-pointer !whitespace-nowrap !rounded-[0.875rem] !p-[0.3125rem_0.9375rem] !text-[clamp(1.3rem,2vw,1.6875rem)] !font-bold !normal-case ![background:--greenGradient] ![border:var(--btnR)_solid_var(--green)] hover:!opacity-100"
             data-tc-event="65fd54c03cf81bc781cd685a"
             data-tc-token="eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjVmZDRmY2MzY2Y4MWJjNzgxY2Q2NWUxIn0.iCwX4g9OTJmsV8-kIU43WN89XFvg9oIG6MP_G2j9g1I"
           >
@@ -72,15 +72,15 @@ export default function () {
           </div>
           <div class="flex flex-col gap-5">
             <h3
-              onpointerdown={() => {
-                clickTimer = false;
-                setTimeout(() => {
-                  clickTimer = true;
-                }, 100);
-              }}
-              onpointerup={() => {
-                !clickTimer ? Fn.initOne("modalGallery", { schedule: "0" }) : 0;
-              }}
+              // onpointerdown={() => {
+              //   clickTimer = false;
+              //   setTimeout(() => {
+              //     clickTimer = true;
+              //   }, 100);
+              // }}
+              // onpointerup={() => {
+              //   !clickTimer ? Fn.initOne("modalGallery", { schedule: "0" }) : 0;
+              // }}
               class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center text-[clamp(1.3rem,3vw,2.8125rem)] font-bold [background:--greenGradient] [border:var(--btnR)_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
             >
               Расписание форума
