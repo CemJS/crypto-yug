@@ -30,6 +30,13 @@
   },
   {
     "id": 35,
+    "photo": "1speaker37.png",
+    "speaker": "Ярослав Кожухов",
+    "about_speaker": "Community manager Metis",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 35,
     "photo": "1speaker35.png",
     "speaker": "Назаров Тимур",
     "about_speaker": "Руководитель проекта «Криптополигон»",
