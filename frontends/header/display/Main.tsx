@@ -3,7 +3,7 @@ import menu from "@json/menu";
 
 export default function () {
   return (
-    <header class="header fixed left-0 top-0 z-[3] h-[4.5rem] w-full bg-neutral-900 [border-bottom:1px_solid_#2D3243]">
+    <header class="header fixed left-0 top-0 z-[4] h-[4.5rem] w-full bg-neutral-900 [border-bottom:1px_solid_#2D3243]">
       <div class="wrapper rela flex h-full items-center px-[0.625rem]">
         <nav
           class={[
