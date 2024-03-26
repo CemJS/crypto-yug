@@ -1,5 +1,12 @@
 [
   {
+    "id": 36,
+    "photo": "1speaker36.png",
+    "speaker": "Владимир Смеркис",
+    "about_speaker": "Сооснователь BLUM.IO",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
     "id": 1,
     "photo": "1speaker1.png",
     "speaker": "Ян Кривоносов",
@@ -20,13 +27,6 @@
     "speaker": "Александр Бражников",
     "about_speaker": "Исполнительный директор РАКИБ",
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
-  },
-  {
-    "id": 36,
-    "photo": "1speaker36.png",
-    "speaker": "Владимир Смеркис",
-    "about_speaker": "Сооснователь BLUM.IO",
-    "visited": ["CryptoЮГ2024"]
   },
   {
     "id": 35,
