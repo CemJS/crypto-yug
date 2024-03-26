@@ -7,6 +7,9 @@ export default function () {
     <div
       class="modalWindow"
       ref="modalWindow"
+      onclick={() => {
+        alert("modalWindow");
+      }}
       onpointerup={(e) => {
         if (e.target === Ref.modalWindow) {
           Func.close();
