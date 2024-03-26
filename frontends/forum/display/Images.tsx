@@ -6,7 +6,7 @@ export default function () {
   let clickTimer;
   return (
     <div class="mb-[2rem] @767:mb-[4.75rem]">
-      <DisplayImages
+      {/* <DisplayImages
         items={images?.map((item: any, index: number) => {
           return (
             <div
@@ -38,7 +38,7 @@ export default function () {
         })}
         buttons={false}
         dots={false}
-      />
+      /> */}
     </div>
   );
 }
