@@ -1,5 +1,5 @@
 import { Cemjsx, Fn, Ref, Static, front } from "cemjs-all";
-import { DisplayImages } from "@elements/ImagesForumSliderTest";
+import { DisplayImages } from "@elements/ImagesForumSlider";
 import images from "@json/forum/forumImages";
 
 export default function () {
