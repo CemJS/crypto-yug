@@ -2,17 +2,17 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  user-select: none;
-  -webkit-user-select: none;
+  // user-select: none;
+  // -webkit-user-select: none;
 
   &_line {
     overflow: hidden;
     display: flex;
   }
 
-  &_draggable {
-    cursor: grabbing;
-  }
+  // &_draggable {
+  //   cursor: grabbing;
+  // }
 
   &_slide {
     min-height: 1px;
@@ -96,7 +96,7 @@
     height: 100%;
     object-fit: cover;
     user-select: none;
-    pointer-events: none;
+    // pointer-events: none;
     border-radius: var(--borderR);
   }
   &__btn {

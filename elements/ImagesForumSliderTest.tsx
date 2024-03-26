@@ -2,17 +2,17 @@ import { Cemjsx, Fn, Ref, Static, front } from "cemjs-all";
 import back from "@svg/icon/prev.svg";
 import next from "@svg/icon/next.svg";
 
-const GalleryClassName = "";
-const GalleryClassNamePartners = "";
-const GalleryLineClassName = "";
-const GallerySlideClassName = "";
-const GalleryGraggableClassName = "";
-const GalleryDotsClassName = "";
-const GalleryDotClassName = "";
-const GalleryDotActiveClassName = "";
-const GalleryNavClassName = "";
-const GalleryNavLeftClassName = "";
-const GalleryNavRightClassName = "";
+const GalleryClassName = "gallery";
+const GalleryClassNamePartners = "gallery_images";
+const GalleryLineClassName = "gallery_line";
+const GallerySlideClassName = "gallery_slide";
+const GalleryGraggableClassName = "gallery_draggable";
+const GalleryDotsClassName = "gallery_dots";
+const GalleryDotClassName = "gallery_dot";
+const GalleryDotActiveClassName = "gallery_dot_active";
+const GalleryNavClassName = "gallery_nav";
+const GalleryNavLeftClassName = "gallery_nav_left";
+const GalleryNavRightClassName = "gallery_nav_right";
 
 class Gallery {
   element: HTMLElement;
