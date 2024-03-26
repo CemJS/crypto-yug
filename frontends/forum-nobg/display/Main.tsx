@@ -38,14 +38,14 @@ export default function () {
           youtube
         </a>
         <Guests />
-        {/* <Opportunities /> */}
+        <Opportunities />
       </div>
 
-      {/* <Theme /> */}
+      <Theme />
 
-      {/* <Partners /> */}
+      <Partners />
 
-      {/* <Destination /> */}
+      <Destination />
     </div>
   );
 }

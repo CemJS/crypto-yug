@@ -35,14 +35,14 @@ export default function () {
         <Speakers />
         <Stend />
         <Guests />
-        <Opportunities />
+        {/* <Opportunities /> */}
       </div>
 
-      <Theme />
+      {/* <Theme /> */}
 
-      <Partners />
+      {/* <Partners /> */}
 
-      <Destination />
+      {/* <Destination /> */}
     </div>
   );
 }
