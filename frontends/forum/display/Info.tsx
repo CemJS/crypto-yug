@@ -70,8 +70,8 @@ export default function () {
               alt="РАКИБ"
             />
           </div>
-          <div class="flex flex-col gap-5">
-            <h3
+          {/* <div class="flex flex-col gap-5"> */}
+          {/* <h3
               // onpointerdown={() => {
               //   clickTimer = false;
               //   setTimeout(() => {
@@ -84,8 +84,8 @@ export default function () {
               class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center text-[clamp(1.3rem,3vw,2.8125rem)] font-bold [background:--greenGradient] [border:var(--btnR)_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
             >
               Расписание форума
-            </h3>
-            {/* <DisplayImages
+            </h3> */}
+          {/* <DisplayImages
               items={schedule.map((item, index) => {
                 return (
                   <div class="gallery_slide">
@@ -101,7 +101,7 @@ export default function () {
                 );
               })}
             /> */}
-            {/* <div class="flex w-full flex-col items-center gap-5 @500:flex-row">
+          {/* <div class="flex w-full flex-col items-center gap-5 @500:flex-row">
               <img
                 onpointerup={() => {
                   Fn.initOne("modalGallery", { schedule: "0" });
@@ -119,7 +119,7 @@ export default function () {
                 class="w-full max-w-[9.375rem] cursor-pointer @1000:max-w-[18.625rem]"
               />
             </div> */}
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>

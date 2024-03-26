@@ -33,7 +33,7 @@ export default function () {
           })}
         </nav>
         <div
-          onpointerup={(e) => {
+          onpointerdown={(e) => {
             e.stopPropagation();
             Static.active = !Static.active;
           }}

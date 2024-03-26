@@ -6,15 +6,18 @@ front.listener.finish = () => {
     Ref.modalWindow.classList.add("activeModal");
     Static.body.classList.add("activeModal");
     Static.body.style.overflow = "hidden";
+    front.Variable.$el.body.classList.add("pointer-events-none");
   }, 100);
   return;
 };
 
 front.func.close = () => {
   setTimeout(() => {
+    Ref.modalWindow.classList.add("hidden");
     Fn.clearData();
     front.Variable.$el.body.classList.remove("activeModal");
     front.Variable.$el.body.style.overflow = "auto";
+    front.Variable.$el.body.classList.remove("pointer-events-none");
   }, 5);
   return;
 };

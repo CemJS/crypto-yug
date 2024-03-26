@@ -33,14 +33,15 @@ export default function () {
           d="M6 18L18 6M6 6l12 12"
         />
       </svg>
-      {/* <button
-        onclick={Func.close}
-        id="close"
-        class="absolute right-4 top-4 text-[5rem]"
+      <div
+        class="modalWindow_body"
+        ref="modalBody"
+        onpointerup={(e) => {
+          if (e.target === Ref.modalBody) {
+            Func.close();
+          }
+        }}
       >
-        x
-      </button> */}
-      {/* <div class="modalWindow_body" ref="modalBody">
         <div class="modalWindow_content modalWindow_content_gallery px-[32px]">
           <main class="modalWindow_main w-full">
             <div class="modalGallery_carousel">
@@ -56,7 +57,7 @@ export default function () {
             </div>
           </main>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
