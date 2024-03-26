@@ -81,9 +81,11 @@
   transition:
     transform 0.2s 0s ease-in-out,
     opacity 0.2s 0s ease-in-out;
+  pointer-events: none;
 
   &.activeModal {
     opacity: 1;
+    pointer-events: all;
     transform: scale(1);
   }
 

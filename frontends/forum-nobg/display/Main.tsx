@@ -28,9 +28,9 @@ interface Course {
 export default function () {
   return (
     <div>
-      {/* <Intro /> */}
-      {/* <Info /> */}
-      <div class="wrapper wrapper_padding relative z-[2]">
+      <Intro />
+      <Info />
+      <div class="wrapper wrapper_padding relative">
         <Images />
         <Speakers />
         {/* <Stend /> */}
