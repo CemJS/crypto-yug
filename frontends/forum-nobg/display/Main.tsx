@@ -28,21 +28,24 @@ interface Course {
 export default function () {
   return (
     <div>
-      <Intro />
-      <Info />
+      {/* <Intro /> */}
+      {/* <Info /> */}
       <div class="wrapper wrapper_padding relative z-[2]">
-        <Images />
-        <Speakers />
-        <Stend />
+        {/* <Images /> */}
+        {/* <Speakers /> */}
+        {/* <Stend /> */}
+        <a href="hhttps://www.youtube.com/channel/UCb9Fx-fNikzs-OZwnTXepLg/">
+          youtube
+        </a>
         <Guests />
-        <Opportunities />
+        {/* <Opportunities /> */}
       </div>
 
-      <Theme />
+      {/* <Theme /> */}
 
-      <Partners />
+      {/* <Partners /> */}
 
-      <Destination />
+      {/* <Destination /> */}
     </div>
   );
 }

@@ -1,4 +1,4 @@
 {
-  "url": "/noheader",
-  "front": ["forum-nobg", "footer"]
+  "url": "/test",
+  "front": ["footer", "forum-nobg"]
 }
