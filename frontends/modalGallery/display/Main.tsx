@@ -8,7 +8,7 @@ export default function () {
       class="modalWindow"
       ref="modalWindow"
       onpointerup={(e) => {
-        if (e.target === Ref.modalBody) {
+        if (e.target === Ref.modalWindow) {
           Func.close();
         }
       }}
