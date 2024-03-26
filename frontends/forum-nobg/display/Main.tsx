@@ -31,7 +31,7 @@ export default function () {
       {/* <Intro /> */}
       {/* <Info /> */}
       <div class="wrapper wrapper_padding relative z-[2]">
-        {/* <Images /> */}
+        <Images />
         <Speakers />
         {/* <Stend /> */}
         <a href="hhttps://www.youtube.com/channel/UCb9Fx-fNikzs-OZwnTXepLg/">
