@@ -20,7 +20,6 @@
     "about_speaker": "Основатель группы компаний ATF media и web3-социальной сети DAOPEOPLE",
     "visited": ["CryptoЮГ2024"]
   },
-
   {
     "id": 3,
     "photo": "1speaker3.png",
@@ -29,10 +28,38 @@
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
+    "id": 38,
+    "photo": "1speaker38.png",
+    "speaker": "Алина Десятчикова Cryptocobra",
+    "about_speaker": "co-founder ATF Digital и CMO TextTeo AI в (https://textteo.com/) ОАЭ",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 39,
+    "photo": "1speaker39.png",
+    "speaker": "Мурсалимов Ренат",
+    "about_speaker": "Фаундер Harecrypta коммьюнити",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 40,
+    "photo": "1speaker40.png",
+    "speaker": "Марсель Миннахмедов",
+    "about_speaker": "Предприниматель, основатель закрытого клуба инвесторов «Marsel Invest”",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 41,
+    "photo": "1speaker41.png",
+    "speaker": "Шпаков Анатолий",
+    "about_speaker": "Основатель онлайн-академии инвестирования и трейдинга «Принципы Баффета»",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
     "id": 35,
     "photo": "1speaker37.png",
     "speaker": "Ярослав Кожухов",
-    "about_speaker": "Community manager Metis",
+    "about_speaker": "Комьюнити-Менеджер Metis",
     "visited": ["CryptoЮГ2024"]
   },
   {

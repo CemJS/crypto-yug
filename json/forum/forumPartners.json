@@ -1,6 +1,6 @@
 [
   {
-    "url": "--сбер--",
+    "url": "https://t.me/SiberiumComUnity",
     "logo": "partner28.png",
     "visited": ["CryptoЮГ2024"]
   },
@@ -65,7 +65,7 @@
     "visited": ["CryptoЮГ2023"]
   },
   {
-    "url": "--криптополигон--",
+    "url": "https://www.crypto-polygon.ru/",
     "logo": "partner32.png",
     "visited": ["CryptoЮГ2024"]
   },
@@ -92,6 +92,11 @@
   {
     "url": "https://BLUM.IO",
     "logo": "partner36.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "url": "https://vk.com/nft",
+    "logo": "partner37.png",
     "visited": ["CryptoЮГ2024"]
   }
 ]
