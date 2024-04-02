@@ -1,96 +1,143 @@
 [
   {
-    "id": 36,
+    "id": 1,
     "photo": "11speaker36.png",
     "speaker": "Владимир Смеркис",
     "about_speaker": "Сооснователь BLUM.IO",
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 1,
-    "photo": "1speaker1.png",
-    "speaker": "Ян Кривоносов",
-    "about_speaker": "СЕО и фаундер Crypto Emergency",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
-  },
-  {
-    "id": 34,
-    "photo": "1speaker34.png",
-    "speaker": "Эдгар Григорян",
-    "about_speaker": "Основатель группы компаний ATF media и web3-социальной сети DAOPEOPLE",
-    "visited": ["CryptoЮГ2024"]
-  },
-  {
-    "id": 3,
+    "id": 2,
     "photo": "1speaker3.png",
     "speaker": "Александр Бражников",
     "about_speaker": "Исполнительный директор РАКИБ",
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
-    "id": 38,
-    "photo": "1speaker38.png",
-    "speaker": "Алина Десятчикова Cryptocobra",
-    "about_speaker": "co-founder ATF Digital и CMO TextTeo AI в (https://textteo.com/) ОАЭ",
+    "id": 3,
+    "photo": "1speaker1.png",
+    "speaker": "Ян Кривоносов",
+    "about_speaker": "СЕО и фаундер Crypto Emergency",
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
+  },
+  {
+    "id": 4,
+    "photo": "1speaker34.png",
+    "speaker": "Эдгар Григорян",
+    "about_speaker": "Основатель группы компаний ATF media и web3-социальной сети DAOPEOPLE",
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 39,
-    "photo": "1speaker39.png",
-    "speaker": "Мурсалимов Ренат",
-    "about_speaker": "Фаундер Harecrypta коммьюнити",
-    "visited": ["CryptoЮГ2024"]
-  },
-  {
-    "id": 40,
-    "photo": "1speaker40.png",
-    "speaker": "Марсель Миннахмедов",
-    "about_speaker": "Предприниматель, основатель закрытого клуба инвесторов «Marsel Invest”",
-    "visited": ["CryptoЮГ2024"]
-  },
-  {
-    "id": 41,
-    "photo": "1speaker41.png",
-    "speaker": "Шпаков Анатолий",
-    "about_speaker": "Основатель онлайн-академии инвестирования и трейдинга «Принципы Баффета»",
-    "visited": ["CryptoЮГ2024"]
-  },
-  {
-    "id": 35,
+    "id": 5,
     "photo": "1speaker37.png",
     "speaker": "Ярослав Кожухов",
     "about_speaker": "Комьюнити-Менеджер Metis",
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 35,
-    "photo": "1speaker35.png",
-    "speaker": "Назаров Тимур",
-    "about_speaker": "Руководитель проекта «Криптополигон»",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
-  },
-  {
-    "id": 31,
-    "photo": "1speaker31.png",
-    "speaker": "Бурков Максим",
-    "about_speaker": "Основатель группы web3 компаний Pro Blockchain Media",
+    "id": 6,
+    "photo": "1speaker39.png",
+    "speaker": "Мурсалимов Ренат",
+    "about_speaker": "Фаундер Harecrypta коммьюнити",
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 32,
+    "id": 7,
+    "photo": "1speaker18.png",
+    "speaker": "Евгений Сапожников",
+    "about_speaker": "Основатель обменника криптовалют Keine-exchange",
+
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
+  },
+  {
+    "id": 8,
+    "photo": "1speaker23.png",
+    "speaker": "Тимофей Григоренко",
+    "about_speaker": "Майнинг, владелец 1GHS",
+
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
+  },
+  {
+    "id": 9,
+    "photo": "1speaker12.png",
+    "speaker": "Вячеслав Носко",
+    "about_speaker": "Основатель группы web3 компаний Pro Blockchain Media",
+
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
+  },
+  {
+    "id": 10,
     "photo": "1speaker32.png",
     "speaker": "Бурова Евгения Юрьевна",
     "about_speaker": "Директор по коммуникациям криптовалютной биржи Garantex",
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 33,
+    "id": 11,
+    "photo": "1speaker31.png",
+    "speaker": "Бурков Максим",
+    "about_speaker": "Основатель группы web3 компаний Pro Blockchain Media",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 12,
+    "photo": "1speaker17.png",
+    "speaker": "Сергей Грабский",
+    "about_speaker": "Руководитель Ассоциации цифрового развития Краснодарского края",
+
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
+  },
+  {
+    "id": 13,
+    "photo": "1speaker35.png",
+    "speaker": "Назаров Тимур",
+    "about_speaker": "Руководитель проекта «Криптополигон»",
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
+  },
+  {
+    "id": 14,
+    "photo": "1speaker40.png",
+    "speaker": "Марсель Миннахмедов",
+    "about_speaker": "Предприниматель, основатель закрытого клуба инвесторов «Marsel Invest”",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 15,
+    "photo": "1speaker8.png",
+    "speaker": "Валерий Осипов",
+    "about_speaker": "ArtEmotioChain",
+
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
+  },
+  {
+    "id": 16,
     "photo": "1speaker33.png",
     "speaker": "Руслан Захаркин",
     "about_speaker": "Экономист, криптоинвестор, ведущий блокчейн-мероприятий, независимый финансовый советник.",
     "visited": ["CryptoЮГ2024"]
   },
+  {
+    "id": 17,
+    "photo": "1speaker38.png",
+    "speaker": "Алина Десятчикова Cryptocobra",
+    "about_speaker": "co-founder ATF Digital и CMO TextTeo AI в (https://textteo.com/) ОАЭ",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 18,
+    "photo": "1speaker41.png",
+    "speaker": "Шпаков Анатолий",
+    "about_speaker": "Основатель онлайн-академии инвестирования и трейдинга «Принципы Баффета»",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 19,
+    "photo": "1speaker7.png",
+    "speaker": "Mr. Sailer YouTube",
+    "about_speaker": "Блогер журналист",
 
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
+  },
   {
     "id": 27,
     "photo": "1speaker27.jpg",
@@ -136,28 +183,12 @@
     "visited": ["CryptoЮГ2023"]
   },
   {
-    "id": 7,
-    "photo": "1speaker7.png",
-    "speaker": "Mr. Sailer YouTube",
-    "about_speaker": "Блогер журналист",
-
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
-  },
-  {
     "id": 29,
     "photo": "1speaker29.jpg",
     "speaker": "Олег Иванов",
     "about_speaker": "Серийный предприниматель, инвестор",
 
     "visited": ["CryptoЮГ2023"]
-  },
-  {
-    "id": 8,
-    "photo": "1speaker8.png",
-    "speaker": "Валерий Осипов",
-    "about_speaker": "ArtEmotioChain",
-
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
   },
   {
     "id": 9,
@@ -192,14 +223,6 @@
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
   },
   {
-    "id": 12,
-    "photo": "1speaker12.png",
-    "speaker": "Вячеслав Носко",
-    "about_speaker": "Основатель группы web3 компаний Pro Blockchain Media",
-
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
-  },
-  {
     "id": 26,
     "photo": "1speaker26.jpg",
     "speaker": "Бурков Максим",
@@ -214,22 +237,6 @@
     "about_speaker": "DUMA NETWORK",
 
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
-  },
-  {
-    "id": 17,
-    "photo": "1speaker17.png",
-    "speaker": "Сергей Грабский",
-    "about_speaker": "Руководитель Ассоциации цифрового развития Краснодарского края",
-
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
-  },
-  {
-    "id": 18,
-    "photo": "1speaker18.png",
-    "speaker": "Евгений Сапожников",
-    "about_speaker": "Основатель обменника криптовалют Keine-exchange",
-
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 19,
@@ -262,14 +269,6 @@
     "about_speaker": "Криптоэксперт",
 
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
-  },
-  {
-    "id": 23,
-    "photo": "1speaker23.png",
-    "speaker": "Тимофей Григоренко",
-    "about_speaker": "Майнинг, владелец 1GHS",
-
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 24,
