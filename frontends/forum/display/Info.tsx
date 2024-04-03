@@ -1,5 +1,5 @@
 import { Cemjsx, Fn, Ref, Static } from "cemjs-all";
-import metis from "@images/forum/metis.png";
+import metis from "@images/forum/metis1.png";
 import racib from "@images/forum/racib.png";
 import logo from "@svg/logo.svg";
 import schedule3 from "@images/forum/schedule3.png";
