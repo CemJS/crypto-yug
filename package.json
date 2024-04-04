@@ -12,12 +12,7 @@
     "watch:css": "npx tailwindcss -i ./assets/tailwind/style.css -o ./public/assets/css/tailwind.css --watch"
   },
   "dependencies": {
-    "cemjs-all": "^1.1.14",
-    "imagemin": "^8.0.1",
-    "imagemin-jpegtran": "^7.0.0",
-    "imagemin-keep-folder": "^5.3.2",
-    "imagemin-mozjpeg": "^10.0.0",
-    "imagemin-pngquant": "^9.0.2"
+    "cemjs-all": "^1.1.18"
   },
   "main": "index.js",
   "author": "crypto-emergency.com",
