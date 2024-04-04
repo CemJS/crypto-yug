@@ -16,7 +16,7 @@ export default function () {
           {menu.map((item) => {
             return (
               <a
-                onpointerdown={(e) => {
+                onclick={(e) => {
                   e.stopPropagation();
                   Static.active = false;
                   document.querySelector(item.link).scrollIntoView({
@@ -33,7 +33,7 @@ export default function () {
           })}
         </nav>
         <div
-          onpointerdown={(e) => {
+          onclick={(e) => {
             e.stopPropagation();
             Static.active = !Static.active;
           }}

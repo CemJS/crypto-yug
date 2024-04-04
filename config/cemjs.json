@@ -1,6 +1,1 @@
-{
-    "version": "v1.6.7",
-    "port": 3000,
-    "live": false,
-    "imagemin": true
-}
+{ "version": "v1.6.8", "port": 3000, "live": true, "imagemin": true }

@@ -34,7 +34,7 @@ export default function () {
               <span
                 class="z-[2] flex w-full items-center justify-center text-center text-[clamp(0.7rem,2vw,1rem)]"
                 ref="tabItem1"
-                onpointerup={() => {
+                onclick={() => {
                   Static.activeIndex = index;
                   Ref.activeTab.style.left = `${Ref.tabItem1.offsetWidth * Static.activeIndex}px`;
                   Static.speakersTabName = item.name;
@@ -96,7 +96,7 @@ export default function () {
       <div
         class="flex cursor-pointer justify-end rounded-[0px_0px_0.625rem_0.625rem] border-none p-4 font-medium"
         ref="button"
-        onpointerup={() => {
+        onclick={() => {
           if (Static.howMutchSpeakers == 6) {
             Static.howMutchSpeakers = speakers.length;
             Ref.buttonSpan.innerText = "Скрыть";
