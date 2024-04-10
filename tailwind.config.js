@@ -4,6 +4,7 @@ export default {
     "./elements/**/*.{tsx,js}",
     "./public/index.html",
   ],
+  safelist: ["border-fuchsia-600"],
   theme: {
     extend: {
       screens: {
