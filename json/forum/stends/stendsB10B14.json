@@ -1,10 +1,6 @@
 [
   {
-    "type": "sold",
-    "img": "/contents/forum/partners/partner4.png"
-  },
-  {
-    "type": "sold",
+    "type": "empty",
     "img": "/contents/forum/partners/partner4.png"
   },
   {
@@ -12,11 +8,15 @@
     "img": "/contents/forum/partners/partner4.png"
   },
   {
-    "type": "sold",
+    "type": "empty",
     "img": "/contents/forum/partners/partner4.png"
   },
   {
-    "type": "sold",
+    "type": "empty",
+    "img": "/contents/forum/partners/partner4.png"
+  },
+  {
+    "type": "empty",
     "img": "/contents/forum/partners/partner4.png"
   }
 ]
