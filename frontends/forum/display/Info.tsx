@@ -23,14 +23,13 @@ export default function () {
     <section class="relative z-[2] mb-[4.375rem]">
       <div class="wrapper wrapper_padding">
         <div class="flex flex-col items-center gap-[2.5rem] text-center">
-          <button
-            type="button"
+          <a
+            href="https://ticketscloud.com/v1/widgets/common?token=eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjVmZDRmY2MzY2Y4MWJjNzgxY2Q2NWUxIn0.iCwX4g9OTJmsV8-kIU43WN89XFvg9oIG6MP_G2j9g1I&lang=ru&event=65fd54c03cf81bc781cd685a&s=1"
+            target="_blank"
             class="!@1000:p-[0.625rem_1.5625rem] mx-auto !cursor-pointer !whitespace-nowrap !rounded-[0.875rem] !p-[0.3125rem_0.9375rem] !text-[clamp(1.3rem,2vw,1.6875rem)] !font-bold !normal-case ![background:--greenGradient] ![border:var(--btnR)_solid_var(--green)] hover:!opacity-100"
-            data-tc-event="65fd54c03cf81bc781cd685a"
-            data-tc-token="eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjVmZDRmY2MzY2Y4MWJjNzgxY2Q2NWUxIn0.iCwX4g9OTJmsV8-kIU43WN89XFvg9oIG6MP_G2j9g1I"
           >
             Купить билет
-          </button>
+          </a>
           <div class="w-[70%] max-w-[53.125rem]">
             <div class="text-[clamp(0.9rem,3vw,2.8125rem)] leading-[1.3]">
               Команда{" "}
