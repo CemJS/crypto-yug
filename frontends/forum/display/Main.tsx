@@ -9,6 +9,8 @@ import Theme from "./Theme";
 import Partners from "./Partners";
 import Destination from "./Destination";
 import Stend from "./Stend";
+import AfterParty from "./AfterParty";
+import Videos from "./Videos";
 
 interface Course {
   _id: string;
@@ -27,6 +29,7 @@ export default function () {
       <div class="wrapper wrapper_padding relative z-[2]">
         <Images />
         <Speakers />
+        <AfterParty />
         <Stend />
         <Guests />
         <Opportunities />

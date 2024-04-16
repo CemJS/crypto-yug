@@ -5,6 +5,7 @@ import logo from "@svg/logo.svg";
 import schedule3 from "@images/forum/schedule3.png";
 import schedule4 from "@images/forum/schedule4.png";
 import { DisplayImages } from "@elements/GalleryInfoSchedule";
+import Videos from "./Videos";
 
 const schedule = [
   {
@@ -49,6 +50,8 @@ export default function () {
               alt="Crypto Emergency"
             />
           </div>
+          <Videos />
+
           <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
             <h3 class="text-[clamp(1.3rem,3vw,2.8125rem)] font-bold">
               Спонсор After party
