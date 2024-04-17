@@ -355,6 +355,7 @@ export const DisplayImages = function ({ items, slide = 0 }) {
             return (
               <div class="gallery_slide">
                 <img
+                  class="max-w-[1200px]"
                   ref="slide"
                   src={`/contents/forum/images/${item?.image}`}
                   alt="img"
