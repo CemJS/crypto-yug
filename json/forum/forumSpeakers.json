@@ -287,10 +287,17 @@
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 29,
+    "id": 30,
     "photo": "11speaker45.png",
     "speaker": "Эдуард Ямилов",
     "about_speaker": "Региональный маркетинг-менеджер Bitget. Занимался региональным маркетингом и отвечал за рост ключевых метрик в СНГ-команде Binance",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 31,
+    "photo": "11speaker46.png",
+    "speaker": "Микитюк Юрий",
+    "about_speaker": "Insider Club",
     "visited": ["CryptoЮГ2024"]
   }
 ]

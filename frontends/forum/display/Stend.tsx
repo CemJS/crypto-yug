@@ -114,7 +114,6 @@ const RenderScene = () => {
       <div
         class={[
           "absolute bottom-0 left-[50.2%] h-[7%] w-[20.5%] translate-x-[-50%] cursor-pointer rounded-[5px] [&:hover+#popup]:opacity-100",
-          `border-[2px] border-solid border-fuchsia-600`,
         ]}
       ></div>
       <RenderBigPopup />
