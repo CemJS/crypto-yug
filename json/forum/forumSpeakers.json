@@ -287,17 +287,31 @@
     "visited": ["CryptoЮГ2024"]
   },
   {
+    "id": 33,
+    "photo": "11speaker48.png",
+    "speaker": "Краева Валерия",
+    "about_speaker": "Ex-Cofounder NFT маркетплейса на блокчейне Celo, цифровой нейро-художник, эксперт по нейросетям для творческих профессий, блогер.",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
     "id": 30,
     "photo": "11speaker45.png",
     "speaker": "Эдуард Ямилов",
-    "about_speaker": "Региональный маркетинг-менеджер Bitget. Занимался региональным маркетингом и отвечал за рост ключевых метрик в СНГ-команде Binance",
+    "about_speaker": "Региональный маркетинг-менеджер Bitget",
     "visited": ["CryptoЮГ2024"]
   },
   {
     "id": 31,
     "photo": "11speaker46.png",
     "speaker": "Микитюк Юрий",
-    "about_speaker": "Insider Club",
+    "about_speaker": "Insider Club, Кандидат наук, Философ, Тренер по лидерству, Ментор, Спикер, Основатель академии, Криптоэнтузиаст с 2017г.",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 32,
+    "photo": "11speaker47.png",
+    "speaker": "Андрей Брежнев",
+    "about_speaker": "DAO ZHCHAIN,  BITFORNIA. Блокчейн, Инвестиции и Маркетинг. Организация эвентов.",
     "visited": ["CryptoЮГ2024"]
   }
 ]

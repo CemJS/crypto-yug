@@ -20,9 +20,9 @@
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
   },
   {
-    "url": "https://hginov.ru/",
-    "logo": "partner9.png",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "url": "https://partner.bitget.com/bg/K0GHWX",
+    "logo": "partner38.png",
+    "visited": ["CryptoЮГ2024"]
   },
   {
     "url": "https://ti.turovinvest.ru/",
@@ -100,10 +100,11 @@
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "url": "https://partner.bitget.com/bg/K0GHWX",
-    "logo": "partner38.png",
-    "visited": ["CryptoЮГ2024"]
+    "url": "https://hginov.ru/",
+    "logo": "partner9.png",
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
   },
+
   {
     "url": "https://bitok.org/ru",
     "logo": "partner39.png",
@@ -122,6 +123,11 @@
   {
     "url": "https://zh.cash",
     "logo": "partner42.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "url": "https://t.me/+BomIoUPn-no3Yzli",
+    "logo": "partner43.png",
     "visited": ["CryptoЮГ2024"]
   }
 ]

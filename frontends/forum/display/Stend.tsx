@@ -11,13 +11,13 @@ const RenderPopup = ({ type, img }) => {
       class="pointer-events-none relative z-10 h-full w-full opacity-0"
     >
       <div class="absolute bottom-0 left-[50%] flex min-h-[40px] translate-x-[-50%] translate-y-[calc(100%_+_5px)] flex-nowrap items-center gap-2 rounded-[5px] bg-slate-600 p-4">
-        {type == "sold" && img ? (
+        {/* {type == "sold" && img ? (
           <img
             class="max-w-[40px]"
             src="/contents/forum/partners/partner4.png"
             alt=""
           />
-        ) : null}
+        ) : null} */}
 
         <span class="text-nowrap text-[0.7rem]">
           {type == "sold" ? "Это место продано" : "Свободно"}
@@ -65,7 +65,7 @@ const RenderB10B14 = ({ item, index }) => {
     <div
       style={`top:${34 + 10.45 * index}%;`}
       class={[
-        "absolute right-[16.105%] h-[6.5%] w-[4.2%] cursor-pointer rounded-[5px] [&:hover_#popup]:opacity-100",
+        "absolute right-[16%] h-[6.5%] w-[4.4%] cursor-pointer rounded-[5px] [&:hover_#popup]:opacity-100",
         item.type == "sold"
           ? `border-[2px] border-solid border-fuchsia-600`
           : null,
