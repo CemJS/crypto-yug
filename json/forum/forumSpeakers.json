@@ -309,6 +309,13 @@
   },
   {
     "id": 32,
+    "photo": "11speaker49.png",
+    "speaker": "Роман Гравитон",
+    "about_speaker": "основатель Zero Gravity Foundation и DAO ZHCash",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 33,
     "photo": "11speaker47.png",
     "speaker": "Андрей Брежнев",
     "about_speaker": "DAO ZHCHAIN,  BITFORNIA. Блокчейн, Инвестиции и Маркетинг. Организация эвентов.",
