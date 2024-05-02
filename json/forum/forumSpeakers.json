@@ -63,6 +63,13 @@
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
+    "id": 30,
+    "photo": "11speaker45.png",
+    "speaker": "Эдуард Ямилов",
+    "about_speaker": "Региональный маркетинг-менеджер Bitget",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
     "id": 8,
     "photo": "1speaker23.png",
     "speaker": "Тимофей Григоренко",
@@ -141,6 +148,20 @@
   },
   {
     "id": 19,
+    "photo": "speakerIzurev.png",
+    "speaker": "Александр Изюрьев",
+    "about_speaker": "Сооснователь клуба инвесторов «UnionClub». Криптоинвестор.",
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
+  },
+  {
+    "id": 20,
+    "photo": "speakerKozlov.png",
+    "speaker": "Козлов Денис",
+    "about_speaker": "Трейдер и эксперт по личным финансам. Сооснователь Клуба инвесторов «UnionClub». Криптоинвестор.",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 19,
     "photo": "1speaker7.png",
     "speaker": "Mr. Sailer YouTube",
     "about_speaker": "Блогер журналист",
@@ -193,13 +214,6 @@
     "photo": "1speaker29.jpg",
     "speaker": "Олег Иванов",
     "about_speaker": "Серийный предприниматель, инвестор",
-    "visited": ["CryptoЮГ2023"]
-  },
-  {
-    "id": 9,
-    "photo": "1speaker9.jpg",
-    "speaker": "Александр Изюрьев",
-    "about_speaker": "Основатель клуба инвесторов UnionClub",
     "visited": ["CryptoЮГ2023"]
   },
   {
@@ -293,13 +307,7 @@
     "about_speaker": "Ex-Cofounder NFT маркетплейса на блокчейне Celo, цифровой нейро-художник, эксперт по нейросетям для творческих профессий, блогер.",
     "visited": ["CryptoЮГ2024"]
   },
-  {
-    "id": 30,
-    "photo": "11speaker45.png",
-    "speaker": "Эдуард Ямилов",
-    "about_speaker": "Региональный маркетинг-менеджер Bitget",
-    "visited": ["CryptoЮГ2024"]
-  },
+
   {
     "id": 31,
     "photo": "11speaker46.png",
@@ -311,14 +319,21 @@
     "id": 32,
     "photo": "11speaker49.png",
     "speaker": "Роман Гравитон",
-    "about_speaker": "основатель Zero Gravity Foundation и DAO ZHCash",
+    "about_speaker": "Программист-инженер, основатель Zero Gravity Foundation и DAO ZHCash, главный разработчик и архитектор ZHChain.",
     "visited": ["CryptoЮГ2024"]
   },
   {
     "id": 33,
-    "photo": "11speaker47.png",
+    "photo": "speakerFilimonov.png",
+    "speaker": "Кирилл Филимонов",
+    "about_speaker": "Основатель Россграм",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 34,
+    "photo": "111speaker47.png",
     "speaker": "Андрей Брежнев",
-    "about_speaker": "DAO ZHCHAIN,  BITFORNIA. Блокчейн, Инвестиции и Маркетинг. Организация эвентов.",
+    "about_speaker": "DAO ZHCASH, BITFORNIA. Маркетолог, криптоэнтузиаст и специалист по развитию ZHChain.",
     "visited": ["CryptoЮГ2024"]
   }
 ]
