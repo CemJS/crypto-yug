@@ -17,8 +17,8 @@ export default function () {
             />
           </div>
           <div class="z-[3]">
-            <h2 class="mb-4 max-w-[350px] text-[clamp(0.9rem,4vw,2.8125rem)] leading-[clamp(0.9rem,4vw,3.8813rem)]">
-              Ежегодный криптовалютный форум
+            <h2 class="mb-4 max-w-[350px] text-[clamp(0.9rem,4vw,2.2125rem)] leading-[clamp(0.9rem,4vw,2.6813rem)]">
+              третий ежегодный криптофорум Crypto Юг 2024
             </h2>
             <p class="whitespace-nowrap text-[clamp(1rem,2vw,2.4375rem)] font-light leading-[1.2]">
               8-9 июня

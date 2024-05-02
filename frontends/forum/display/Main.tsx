@@ -35,8 +35,6 @@ export default function () {
         <Opportunities />
       </div>
 
-      <Theme />
-
       <Partners />
 
       <Destination />

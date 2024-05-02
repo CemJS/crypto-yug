@@ -14,7 +14,7 @@ export default function () {
         <h2 class="my-6 text-center text-[clamp(1.5rem,4vw,5.625rem)] font-bold">
           Темы форума:
         </h2>
-        <ul class="mb-10 flex flex-col gap-[0.625rem]">
+        <ul class="mb-10 flex flex-col gap-[0.625rem] text-left">
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
             Начало пути в крипторынок для новичков и предпринимателей
           </li>
@@ -37,7 +37,7 @@ export default function () {
         <h4 class="mb-4 pl-[1.875rem] text-[clamp(0.7rem,5vw,1.8rem)] font-semibold text-[--textBlue]">
           На форуме Вас будут ждать:
         </h4>
-        <ul class="flex flex-col gap-[0.625rem]">
+        <ul class="flex flex-col gap-[0.625rem] text-left">
           <li class="relative pl-[1.875rem] text-[clamp(1.2rem,2vw,1.5rem)] leading-[1.2] before:absolute before:left-0 before:top-0 before:h-5 before:w-5 before:content-[''] before:[background:url(/contents/forum/list-item-DW3ISSEJ.png)_no-repeat_center/contain]">
             40+ проектов
           </li>
