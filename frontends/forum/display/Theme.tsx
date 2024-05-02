@@ -34,7 +34,7 @@ export default function () {
             GameFi: совместное развитие игровой и крипто-индустрии
           </li>
         </ul>
-        <h4 class="mb-4 pl-[1.875rem] text-[clamp(0.7rem,5vw,1.8rem)] font-semibold text-[--textBlue]">
+        <h4 class="mb-4 pl-[1.875rem] text-left text-[clamp(0.7rem,5vw,1.8rem)] font-semibold text-[--textBlue]">
           На форуме Вас будут ждать:
         </h4>
         <ul class="flex flex-col gap-[0.625rem] text-left">
