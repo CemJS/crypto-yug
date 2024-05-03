@@ -7,7 +7,7 @@ export default function () {
         <a
           href="https://ticketscloud.com/v1/widgets/common?token=eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjVmZDRmY2MzY2Y4MWJjNzgxY2Q2NWUxIn0.iCwX4g9OTJmsV8-kIU43WN89XFvg9oIG6MP_G2j9g1I&lang=ru&event=65fd54c03cf81bc781cd685a&s=1"
           target="_blank"
-          class="!@1000:p-[0.625rem_1.5625rem] mx-auto !mb-[0.625rem] !cursor-pointer !whitespace-nowrap !rounded-[0.875rem] !p-[0.3125rem_0.9375rem] !text-[clamp(1.3rem,2vw,1.6875rem)] !font-bold !normal-case ![background:--greenGradient] ![border:var(--btnR)_solid_var(--green)] hover:!opacity-100"
+          class="mx-auto !mb-[0.625rem] !cursor-pointer !whitespace-nowrap !rounded-[0.875rem] !p-[0.625rem_1.5625rem] !text-[clamp(1.3rem,2vw,1.6875rem)] !font-bold !normal-case ![background:--greenGradient] ![border:var(--btnR)_solid_var(--green)] hover:!opacity-100 @1000:!p-[1rem_1.9375rem]"
         >
           Купить билет
         </a>

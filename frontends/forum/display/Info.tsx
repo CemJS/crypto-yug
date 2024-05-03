@@ -27,7 +27,7 @@ export default function () {
         <a
           href="https://ticketscloud.com/v1/widgets/common?token=eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjVmZDRmY2MzY2Y4MWJjNzgxY2Q2NWUxIn0.iCwX4g9OTJmsV8-kIU43WN89XFvg9oIG6MP_G2j9g1I&lang=ru&event=65fd54c03cf81bc781cd685a&s=1"
           target="_blank"
-          class="!@1000:p-[0.625rem_1.5625rem] mx-auto !cursor-pointer !whitespace-nowrap !rounded-[0.875rem] !p-[0.3125rem_0.9375rem] !text-[clamp(1.3rem,2vw,1.6875rem)] !font-bold !normal-case ![background:--greenGradient] ![border:var(--btnR)_solid_var(--green)] hover:!opacity-100"
+          class="mx-auto !cursor-pointer !whitespace-nowrap !rounded-[0.875rem] !p-[0.625rem_1.5625rem] !text-[clamp(1.3rem,2vw,1.6875rem)] !font-bold !normal-case ![background:--greenGradient] ![border:var(--btnR)_solid_var(--green)] hover:!opacity-100 @1000:!p-[1rem_1.9375rem]"
         >
           Купить билет
         </a>
@@ -40,38 +40,42 @@ export default function () {
             который состоится 8 и 9 июня в г. Новороссийске.
           </div> */}
         </div>
-        <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
-          <h3 class="text-[clamp(1.3rem,3vw,2.8125rem)] font-bold">
-            Организатор
-          </h3>
-          <img
-            class="w-full max-w-[9.375rem] @1000:max-w-[15.625rem]"
-            src={logo}
-            alt="Crypto Emergency"
-          />
-        </div>
         <Videos />
         <Theme />
 
-        <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
-          <h3 class="text-[clamp(1.3rem,3vw,2.8125rem)] font-bold">
-            Спонсор After party
-          </h3>
-          <img
-            class="w-full max-w-[9.375rem] @1000:max-w-[15.625rem]"
-            src={metis}
-            alt="Metis"
-          />
-        </div>
-        <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
-          <h3 class="text-[clamp(1.3rem,3vw,2.8125rem)] font-bold">
-            При поддержке
-          </h3>
-          <img
-            class="w-full max-w-[9.375rem] @1000:max-w-[15.625rem]"
-            src={racib}
-            alt="РАКИБ"
-          />
+        <div class="wrapper w-full px-14">
+          <div class="flex w-full flex-col justify-between gap-2 @992:flex-row">
+            <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
+              <h3 class="text-[clamp(1.2rem,3vw,1.8125rem)] font-bold">
+                Организатор
+              </h3>
+              <img
+                class="w-full max-w-[9.375rem] @1000:max-w-[10.625rem]"
+                src={logo}
+                alt="Crypto Emergency"
+              />
+            </div>
+            <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
+              <h3 class="text-[clamp(1.2rem,3vw,1.8125rem)] font-bold">
+                Спонсор After party
+              </h3>
+              <img
+                class="w-full max-w-[9.375rem] @1000:max-w-[10.625rem]"
+                src={metis}
+                alt="Metis"
+              />
+            </div>
+            <div class="text-[clamp(2rem, 2vw, 3.25rem)] mb-[1.875rem] flex flex-col items-center gap-[2.1875rem]">
+              <h3 class="text-[clamp(1.2rem,3vw,1.8125rem)] font-bold">
+                При поддержке
+              </h3>
+              <img
+                class="w-full max-w-[9.375rem] @1000:max-w-[10.625rem]"
+                src={racib}
+                alt="РАКИБ"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -92,7 +96,7 @@ export default function () {
               // onpointerup={() => {
               //   !clickTimer ? Fn.initOne("modalGallery", { schedule: "0" }) : 0;
               // }}
-              class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center text-[clamp(1.3rem,3vw,2.8125rem)] font-bold [background:--greenGradient] [border:var(--btnR)_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
+              class="cursor-pointer whitespace-nowrap rounded-[0.875rem] p-[0.3125rem_0.9375rem] text-center text-[clamp(1.2rem,3vw,1.8125rem)] font-bold [background:--greenGradient] [border:var(--btnR)_solid_var(--green)] [transition:all_1s_ease] @700:block @1000:p-[0.625rem_1.5625rem]"
             >
               Расписание форума
             </h3> */
