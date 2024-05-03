@@ -155,7 +155,7 @@
   },
   {
     "id": 20,
-    "photo": "speakerKozlov.png",
+    "photo": "speakerKozlov1.png",
     "speaker": "Козлов Денис",
     "about_speaker": "Трейдер и эксперт по личным финансам. Сооснователь Клуба инвесторов «UnionClub». Криптоинвестор.",
     "visited": ["CryptoЮГ2024"]
@@ -221,13 +221,6 @@
     "photo": "1speaker10.jpg",
     "speaker": "Ярослав Кожухов",
     "about_speaker": "Metis",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
-  },
-  {
-    "id": 25,
-    "photo": "1speaker25.jpg",
-    "speaker": "Кирилл Филимонов",
-    "about_speaker": "Основатель Россграм",
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
   },
   {
@@ -324,10 +317,10 @@
   },
   {
     "id": 33,
-    "photo": "speakerFilimonov.png",
+    "photo": "speakerFilimonov1.png",
     "speaker": "Кирилл Филимонов",
     "about_speaker": "Основатель Россграм",
-    "visited": ["CryptoЮГ2024"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 34,
