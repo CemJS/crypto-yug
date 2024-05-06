@@ -11,7 +11,6 @@ export default function () {
       <p class="inline-block text-center text-[clamp(1.5rem,4vw,4rem)] font-bold">
         Спасибо за покупку
       </p>
-      {/* <p class="error_subtitle">Вернитесь на главную страницу</p> */}
       <a
         href="/"
         onclick={Fn.link}

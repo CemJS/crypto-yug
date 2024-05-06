@@ -1,4 +1,4 @@
 {
   "url": "/thanks",
-  "front": ["thanks"]
+  "front": ["header", "thanks", "footer"]
 }

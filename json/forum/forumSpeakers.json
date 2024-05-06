@@ -328,5 +328,12 @@
     "speaker": "Андрей Брежнев",
     "about_speaker": "DAO ZHCASH, BITFORNIA. Маркетолог, криптоэнтузиаст и специалист по развитию ZHChain.",
     "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 35,
+    "photo": "speakerPavlovich.png",
+    "speaker": "Дмитрий Павлович",
+    "about_speaker": "СЕО и Co-Founder X-l1bra",
+    "visited": ["CryptoЮГ2024"]
   }
 ]

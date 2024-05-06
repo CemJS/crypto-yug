@@ -1,4 +1,4 @@
-import { Cemjsx, Func, Static, Fn, Ref } from "cemjs-all";
+import { Cemjsx, Func, Static, Fn, Ref, front } from "cemjs-all";
 import menu from "@json/menu";
 
 export default function () {
@@ -19,6 +19,7 @@ export default function () {
                 onclick={(e) => {
                   e.stopPropagation();
                   Static.active = false;
+                  !!front.Variable.DataUrl[0] && Fn.linkChange(`/${item.link}`);
                   document.querySelector(item.link).scrollIntoView({
                     behavior: "smooth",
                   });

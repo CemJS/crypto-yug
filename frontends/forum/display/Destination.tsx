@@ -2,7 +2,7 @@ import { Cemjsx, Fn, Ref, Static } from "cemjs-all";
 
 export default function () {
   return (
-    <section id="destination" class="relative z-[2] pb-[30px] pt-[60px]">
+    <section id="destination" class="relative z-[2] pb-12 pt-[60px]">
       <div class="wrapper wrapper_padding flex flex-col">
         <a
           href="https://ticketscloud.com/v1/widgets/common?token=eyJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSIsInR5cCI6IkpXVCJ9.eyJwIjoiNjVmZDRmY2MzY2Y4MWJjNzgxY2Q2NWUxIn0.iCwX4g9OTJmsV8-kIU43WN89XFvg9oIG6MP_G2j9g1I&lang=ru&event=65fd54c03cf81bc781cd685a&s=1"

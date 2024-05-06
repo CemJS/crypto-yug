@@ -10,7 +10,7 @@ export default function () {
       init={($el) => {
         front.Variable.$el.footer = $el;
       }}
-      class="relative z-0 mt-4"
+      class="relative z-0 mt-auto"
     >
       <div class="wrapper flex flex-col gap-[2.125rem] lg:gap-[4.125rem]">
         <div class="flex flex-col items-center justify-between gap-7 py-5 [border-top:1px_solid_#353944]">
