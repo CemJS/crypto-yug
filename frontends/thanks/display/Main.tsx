@@ -6,9 +6,9 @@ import thanks from "@images/forum/thanks.svg";
 
 export default function () {
   return (
-    <div class="error_wrap px-[10px] text-center">
-      <img class="w-full max-w-[30%]" src={thanks} alt="" />
-      <p class="inline-block text-center text-[clamp(1.5rem,4vw,4rem)] font-bold">
+    <div class="mb-10 mt-[140px] flex w-full flex-col items-center justify-center gap-[25px] px-[10px] text-center">
+      <img class="w-full max-w-[200px]" src={thanks} alt="" />
+      <p class="inline-block text-center text-[clamp(1.5rem,3vw,2rem)] font-bold">
         Спасибо за покупку
       </p>
       <a
