@@ -246,10 +246,10 @@
   },
   {
     "id": 19,
-    "photo": "1speaker19.jpg",
+    "photo": "speakerStrigun.png",
     "speaker": "Денис Стригун",
-    "about_speaker": "CEO WEB3Space",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "about_speaker": "Эксперт по фундаментальному анализу блокчейн проектов и WEB3 экосистем, CEO WEB3Space.",
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 20,
@@ -334,6 +334,20 @@
     "photo": "speakerPavlovich1.png",
     "speaker": "Дмитрий Павлович",
     "about_speaker": "СЕО и Co-Founder X-l1bra",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 35,
+    "photo": "speakerBumarskov.png",
+    "speaker": "Максим Бумарсков",
+    "about_speaker": "Cо-основатель международной образовательной платформы и Крипто Академии SoulTeam",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 35,
+    "photo": "speakerPyatenko.png",
+    "speaker": "Виталий Пятенко",
+    "about_speaker": "Сo-founder DAO SoulMate Ecosystem",
     "visited": ["CryptoЮГ2024"]
   }
 ]
