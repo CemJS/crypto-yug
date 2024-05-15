@@ -49,7 +49,7 @@ const RenderB1B9 = ({ item, index }) => {
     <div
       style={`left:${25 + 5.85 * index}%;`}
       class={[
-        "absolute top-[11.4%] h-[7.7%] w-[3.65%] cursor-pointer rounded-[5px] [&:hover_#popup]:opacity-100",
+        "absolute top-[11.4%] h-[7.7%] w-[3.65%] cursor-pointer  [&:hover_#popup]:opacity-100",
         item.type == "sold"
           ? `border-[2px] border-solid border-fuchsia-600`
           : null,
@@ -65,7 +65,7 @@ const RenderB10B14 = ({ item, index }) => {
     <div
       style={`top:${34 + 10.45 * index}%;`}
       class={[
-        "absolute right-[16%] h-[6.5%] w-[4.4%] cursor-pointer rounded-[5px] [&:hover_#popup]:opacity-100",
+        "absolute right-[16%] h-[6.5%] w-[4.4%] cursor-pointer  [&:hover_#popup]:opacity-100",
         item.type == "sold"
           ? `border-[2px] border-solid border-fuchsia-600`
           : null,
@@ -81,7 +81,7 @@ const RenderA1A3 = ({ item, index }) => {
     <div
       style={`left:${38.3 + 10 * index}%;`}
       class={[
-        "absolute top-[33%] h-[5.7%] w-[7.6%] cursor-pointer rounded-[5px] [&:hover_#popup]:opacity-100",
+        "absolute top-[33%] h-[5.7%] w-[7.6%] cursor-pointer  [&:hover_#popup]:opacity-100",
         item.type == "sold"
           ? `border-[2px] border-solid border-fuchsia-600`
           : null,
@@ -97,7 +97,7 @@ const RenderA4A6 = ({ item, index }) => {
     <div
       style={`top:${45 + 17.7 * index}%;`}
       class={[
-        "absolute right-[27.3%] h-[13.9%] w-[3.2%] cursor-pointer rounded-[5px] [&:hover_#popup]:opacity-100",
+        "absolute right-[27.3%] h-[13.9%] w-[3.2%] cursor-pointer  [&:hover_#popup]:opacity-100",
         item.type == "sold"
           ? `border-[2px] border-solid border-fuchsia-600`
           : null,
@@ -113,7 +113,7 @@ const RenderScene = () => {
     <div>
       <div
         class={[
-          "absolute bottom-0 left-[50.2%] h-[7%] w-[20.5%] translate-x-[-50%] cursor-pointer rounded-[5px] [&:hover+#popup]:opacity-100",
+          "absolute bottom-0 left-[50.2%] h-[7%] w-[20.5%] translate-x-[-50%] cursor-pointer  [&:hover+#popup]:opacity-100",
         ]}
       ></div>
       <RenderBigPopup />
