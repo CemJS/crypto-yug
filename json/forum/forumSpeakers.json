@@ -349,5 +349,12 @@
     "speaker": "Виталий Пятенко",
     "about_speaker": "Сo-founder DAO SoulMate Ecosystem",
     "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 37,
+    "photo": "speakerNestor.png",
+    "speaker": "Архангельский Нестор",
+    "about_speaker": "Product Owner Wildberries",
+    "visited": ["CryptoЮГ2024"]
   }
 ]
