@@ -132,7 +132,12 @@
   },
   {
     "url": "https://t.me/+BomIoUPn-no3Yzli",
-    "logo": "insider.svg",
+    "logo": "insider1.png",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "url": "https://www.block-chain24.com",
+    "logo": "blockchain24.png",
     "visited": ["CryptoЮГ2024"]
   }
 ]
