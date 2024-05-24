@@ -356,5 +356,12 @@
     "speaker": "Архангельский Нестор",
     "about_speaker": "Product Owner Wildberries",
     "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 38,
+    "photo": "speakerGrinev.png",
+    "speaker": "Александр Гринёв",
+    "about_speaker": "Эксперт в сфере GameFI",
+    "visited": ["CryptoЮГ2024"]
   }
 ]
