@@ -169,10 +169,10 @@
   },
   {
     "id": 27,
-    "photo": "1speaker27.jpg",
-    "speaker": "Павел Гудимов",
+    "photo": "speakerGudimov.png",
+    "speaker": "Гудимов Павел",
     "about_speaker": "Директор по развитию РАКИБ",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2022"]
+    "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
     "id": 5,
@@ -362,6 +362,20 @@
     "photo": "speakerGrinev.png",
     "speaker": "Александр Гринёв",
     "about_speaker": "Эксперт в сфере GameFI",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 39,
+    "photo": "speakerIsaikin.png",
+    "speaker": "Владислав Исайкин",
+    "about_speaker": "Создатель крупного медиа о крипте TimeToCrypto, крипто-митапа 0xConnect и GameFi-проекта Terminal.",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 40,
+    "photo": "speakerKuznetsov.png",
+    "speaker": "Кузнецов Дмитрий",
+    "about_speaker": "Компьютерная Академия TOP",
     "visited": ["CryptoЮГ2024"]
   }
 ]
