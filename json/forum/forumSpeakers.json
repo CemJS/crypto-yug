@@ -21,19 +21,27 @@
     "visited": ["CryptoЮГ2023", "CryptoЮГ2022", "CryptoЮГ2024"]
   },
   {
-    "id": 42,
+    "id": 4,
     "photo": "11speaker42.png",
     "speaker": "Спиренков Сергей",
     "about_speaker": "VK NFT",
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 43,
+    "id": 6,
+    "photo": "speakerHitrov.png",
+    "speaker": "Алексей Хитров",
+    "about_speaker": "CEO Arbitragescanner.io",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 5,
     "photo": "11speaker43.png",
     "speaker": "Дмитрий Мачихин",
     "about_speaker": "IT инвестор, основатель сервиса BitOK (Бит окей), международный эксперт по AML, участник КУ ООН",
     "visited": ["CryptoЮГ2024"]
   },
+
   {
     "id": 4,
     "photo": "1speaker34.png",
