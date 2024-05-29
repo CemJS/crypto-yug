@@ -385,5 +385,19 @@
     "speaker": "Кузнецов Дмитрий",
     "about_speaker": "Компьютерная Академия TOP",
     "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 41,
+    "photo": "speakerArslanov.png",
+    "speaker": "Алик Арсланов",
+    "about_speaker": "Создатель одного из старейших телеграм-каналов о криптовалютах «10 долларов Баффетта», телеграм- эксперимента «миллион на AirDrop»",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 42,
+    "photo": "speakerSharafutdinov.png",
+    "speaker": "Рустам Шарафутдинов",
+    "about_speaker": "Руководитель партнерского направления проекта «миллион на AirDrop»",
+    "visited": ["CryptoЮГ2024"]
   }
 ]
