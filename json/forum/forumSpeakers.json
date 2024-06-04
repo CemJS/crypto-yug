@@ -1,5 +1,12 @@
 [
   {
+    "id": 4,
+    "photo": "1speaker34.png",
+    "speaker": "Эдгар Григорян",
+    "about_speaker": "Основатель группы компаний ATF media и web3-социальной сети DAOPEOPLE",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
     "id": 1,
     "photo": "11speaker36.png",
     "speaker": "Владимир Смеркис",
@@ -27,13 +34,7 @@
     "about_speaker": "VK NFT",
     "visited": ["CryptoЮГ2024"]
   },
-  {
-    "id": 6,
-    "photo": "speakerHitrov.png",
-    "speaker": "Алексей Хитров",
-    "about_speaker": "CEO Arbitragescanner.io",
-    "visited": ["CryptoЮГ2024"]
-  },
+
   {
     "id": 5,
     "photo": "11speaker43.png",
@@ -41,12 +42,11 @@
     "about_speaker": "IT инвестор, основатель сервиса BitOK (Бит окей), международный эксперт по AML, участник КУ ООН",
     "visited": ["CryptoЮГ2024"]
   },
-
   {
-    "id": 4,
-    "photo": "1speaker34.png",
-    "speaker": "Эдгар Григорян",
-    "about_speaker": "Основатель группы компаний ATF media и web3-социальной сети DAOPEOPLE",
+    "id": 6,
+    "photo": "speakerHitrov.png",
+    "speaker": "Алексей Хитров",
+    "about_speaker": "CEO Arbitragescanner.io",
     "visited": ["CryptoЮГ2024"]
   },
   {
