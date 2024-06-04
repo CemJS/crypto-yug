@@ -7,14 +7,14 @@ export default function () {
         After Party
       </h2>
       <h3 class="text-[clamp(1.3rem,3vw,2.8125rem)] font-bold">9 июня</h3>
-      <div class="flex w-full gap-2">
+      <div class="my-8 flex w-full flex-col items-center gap-6 @767:flex-row">
         <img
-          class="my-8 w-[48%] rounded-[40px]"
+          class="w-full max-w-[600px] rounded-[20px] @767:w-[48%] @767:rounded-[40px]"
           src="/contents/forum/afterParty.png"
           alt="After party"
         />
         <img
-          class="my-8 w-[48%] rounded-[40px]"
+          class="w-full max-w-[600px] rounded-[20px] @767:w-[48%] @767:rounded-[40px]"
           src="/contents/forum/vinnipuh.png"
           alt="Jambey"
         />

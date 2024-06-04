@@ -399,5 +399,19 @@
     "speaker": "Рустам Шарафутдинов",
     "about_speaker": "Руководитель партнерского направления проекта «миллион на AirDrop»",
     "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 43,
+    "photo": "speakerBazhenov.png",
+    "speaker": "Евгений Баженов",
+    "about_speaker": "Маркетолог, медиа-менеджер криптоэкспертов, брендов, проектов",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 44,
+    "photo": "speakerLipatov.png",
+    "speaker": "Липатов Артур",
+    "about_speaker": "Founder Architecton и Gaming Media",
+    "visited": ["CryptoЮГ2024"]
   }
 ]
