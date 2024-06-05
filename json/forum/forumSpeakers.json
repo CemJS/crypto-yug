@@ -34,14 +34,6 @@
     "about_speaker": "VK NFT",
     "visited": ["CryptoЮГ2024"]
   },
-
-  {
-    "id": 5,
-    "photo": "11speaker43.png",
-    "speaker": "Дмитрий Мачихин",
-    "about_speaker": "IT инвестор, основатель сервиса BitOK (Бит окей), международный эксперт по AML, участник КУ ООН",
-    "visited": ["CryptoЮГ2024"]
-  },
   {
     "id": 6,
     "photo": "speakerHitrov.png",
@@ -99,13 +91,6 @@
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 11,
-    "photo": "1speaker31.png",
-    "speaker": "Бурков Максим",
-    "about_speaker": "Основатель группы web3 компаний Pro Blockchain Media",
-    "visited": ["CryptoЮГ2024"]
-  },
-  {
     "id": 12,
     "photo": "1speaker17.png",
     "speaker": "Сергей Грабский",
@@ -148,13 +133,6 @@
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 18,
-    "photo": "speak.png",
-    "speaker": "Шпаков Анатолий",
-    "about_speaker": "Основатель онлайн-академии инвестирования и трейдинга «Принципы Баффета»",
-    "visited": ["CryptoЮГ2024"]
-  },
-  {
     "id": 19,
     "photo": "speakerIzurev.png",
     "speaker": "Александр Изюрьев",
@@ -173,7 +151,7 @@
     "photo": "1speaker7.png",
     "speaker": "Mr. Sailer YouTube",
     "about_speaker": "Блогер журналист",
-    "visited": ["CryptoЮГ2023", "CryptoЮГ2024"]
+    "visited": ["CryptoЮГ2023"]
   },
   {
     "id": 27,
@@ -302,14 +280,6 @@
     "visited": ["CryptoЮГ2024"]
   },
   {
-    "id": 33,
-    "photo": "11speaker48.png",
-    "speaker": "Краева Валерия",
-    "about_speaker": "Ex-Cofounder NFT маркетплейса на блокчейне Celo, цифровой нейро-художник, эксперт по нейросетям для творческих профессий, блогер.",
-    "visited": ["CryptoЮГ2024"]
-  },
-
-  {
     "id": 31,
     "photo": "11speaker46.png",
     "speaker": "Микитюк Юрий",
@@ -335,13 +305,6 @@
     "photo": "111speaker47.png",
     "speaker": "Андрей Брежнев",
     "about_speaker": "DAO ZHCASH, BITFORNIA. Маркетолог, криптоэнтузиаст и специалист по развитию ZHChain.",
-    "visited": ["CryptoЮГ2024"]
-  },
-  {
-    "id": 35,
-    "photo": "speakerPavlovich1.png",
-    "speaker": "Дмитрий Павлович",
-    "about_speaker": "СЕО и Co-Founder X-l1bra",
     "visited": ["CryptoЮГ2024"]
   },
   {
@@ -412,6 +375,20 @@
     "photo": "speakerLipatov.png",
     "speaker": "Липатов Артур",
     "about_speaker": "Founder Architecton и Gaming Media",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 45,
+    "photo": "speakerKozlovskaya.png",
+    "speaker": "Козловская Ольга",
+    "about_speaker": "CEO маркетингового агентства Energy Digital, CMO Gamefi.tech",
+    "visited": ["CryptoЮГ2024"]
+  },
+  {
+    "id": 46,
+    "photo": "speakerFaskutdinov.png",
+    "speaker": "Фаскутдинов Самат",
+    "about_speaker": "Резидент проекта «Криптополигон», куратор проекта «Детский цифровой рубль»",
     "visited": ["CryptoЮГ2024"]
   }
 ]
